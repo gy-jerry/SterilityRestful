@@ -1,0 +1,98 @@
+
+ 
+记录时间：2017-10-17 22:10:18,113 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemSampleGetSamplesInfoByAnyProperty
+            开始时间：2017/10/17 22:10:17
+            结束时间：2017/10/17 22:10:18
+            总 时 间：0.4544009秒
+            Action参数：querySampleInfo=SterilityRestful.DataModels.QuerySampleInfo&__EntityParamsList__={
+  "ObjectNo": null,
+  "ObjCompany": null,
+  "ObjIncuSeq": null,
+  "ObjectName": null,
+  "ObjectType": null,
+  "SamplingPeople": null,
+  "SamplingTimeS": null,
+  "SamplingTimeE": null,
+  "Warning": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetObjectName": 1,
+  "GetObjectType": 1,
+  "GetSamplingPeople": 1,
+  "GetSamplingTime": 1,
+  "GetWarning": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: fb379a8f-118c-cc62-93fb-fca94139a166
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-10-17 22:14:27,873 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemSampleGetSamplesInfoByAnyProperty
+            开始时间：2017/10/17 22:14:27
+            结束时间：2017/10/17 22:14:27
+            总 时 间：0.7078076秒
+            Action参数：querySampleInfo=SterilityRestful.DataModels.QuerySampleInfo&__EntityParamsList__={
+  "ObjectNo": null,
+  "ObjCompany": null,
+  "ObjIncuSeq": null,
+  "ObjectName": null,
+  "ObjectType": null,
+  "SamplingPeople": null,
+  "SamplingTimeS": null,
+  "SamplingTimeE": null,
+  "Warning": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetObjectName": 1,
+  "GetObjectType": 1,
+  "GetSamplingPeople": 1,
+  "GetSamplingTime": 1,
+  "GetWarning": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 280a8839-802f-80bd-730c-84000b146d77
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 

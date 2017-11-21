@@ -1,0 +1,1384 @@
+
+ 
+记录时间：2017-04-28 13:12:27,870 
+线程ID:[8] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: aae15bc3-c0e2-730b-f469-724194ce4161
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 13:12:43,658 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 484fefbf-9ab5-39ec-aa34-017691889bc5
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 13:13:31,481 
+线程ID:[6] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 92737456-ffb2-b959-e377-8fc48ce10594
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 13:13:54,090 
+线程ID:[8] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 45dbc462-c1dc-2c37-7038-de4ffc9b130e
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 13:36:25,282 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: fdb657fa-8b43-ebf3-86fd-36d811cc7689
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 13:37:46,563 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 55ede9ee-f5ed-f78e-e209-041ae4710120
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 13:44:28,441 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: a974e224-9f57-3126-d5b6-ce734fcb2ea4
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 13:54:59,441 
+线程ID:[14] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: f366f415-363e-794c-b27a-27369ed91795
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 14:00:01,017 
+线程ID:[13] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: a3550f28-1b51-9129-1b07-dc326642ee42
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 14:04:58,420 
+线程ID:[36] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 03485364-3fa8-9424-5ff7-79802cb79cbd
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 14:09:45,251 
+线程ID:[40] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: a70d69ab-28be-8e58-9d01-2c16a0c50055
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 14:19:37,145 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 55622d89-e7ad-109f-ebd8-e1bbf62ca4ba
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 15:07:47,550 
+线程ID:[6] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 4fe22dc9-134e-36d3-66f9-b57e7de0bcb9
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 15:29:30,785 
+线程ID:[11] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 6b7dd635-5863-c25c-71c0-35ebb76d6f62
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 15:30:57,811 
+线程ID:[8] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: adbac277-a758-539b-fad3-6143daa1ff50
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 15:34:52,680 
+线程ID:[12] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 6e3af595-4130-3517-7fae-b8e3610034b9
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 15:45:35,606 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 0354439f-1adb-afc1-82cc-5af67f7caab2
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 15:54:07,614 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 44e92ca6-2164-6ba6-e47f-6eff2ffd6c80
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 15:55:39,828 
+线程ID:[9] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: ab11a1bc-b087-2cbf-654d-dffc929fe2e8
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 16:02:42,490 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 90654264-457f-1bd0-0031-216429f88a13
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 16:03:34,292 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 83fa55fb-649c-b18c-7905-7b625680fba0
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 16:05:32,656 
+线程ID:[6] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: c233e913-6322-ee76-fe5c-c5e950c88923
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 16:10:23,651 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: d6faae6c-5e5f-9196-f027-79fb4d9d3078
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 16:11:11,772 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 1fc4686f-e314-9d7d-c38a-a965af624783
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 16:14:58,105 
+线程ID:[8] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: ebf17867-42b1-08c8-ec23-479e6d91baac
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 16:19:34,955 
+线程ID:[11] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: d5efef36-3327-353a-cce3-563905646c16
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 16:27:24,966 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 0485dca5-782e-987a-4d3c-c75467234397
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-28 16:28:27,930 
+线程ID:[6] 
+日志级别：  ERROR 
+错误描述：
+                请求【ItemInfoController】的【ItemIsolatorGetIsolatorsInfoByAnyProperty】产生异常：
+                Action参数：queryIsolatorInfo=
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: a276afd7-9d4e-d531-560e-77451e94d582
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.ItemInfoController.ItemIsolatorGetIsolatorsInfoByAnyProperty(QueryIsolatorInfo queryIsolatorInfo) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\ItemInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()

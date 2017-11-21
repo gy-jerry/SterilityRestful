@@ -1,0 +1,1505 @@
+
+ 
+记录时间：2017-04-27 21:14:11,704 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:14:11
+            结束时间：2017/4/27 21:14:11
+            总 时 间：0.5720025秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 294bf151-2b90-5b4f-9fda-fc88efb49b98
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:14:32,538 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:14:32
+            结束时间：2017/4/27 21:14:32
+            总 时 间：0.0100006秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: e717123f-766b-488b-40dc-5a4b4ec5d877
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:14:33,872 
+线程ID:[18] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:14:33
+            结束时间：2017/4/27 21:14:33
+            总 时 间：0.1330076秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: f7099947-c1c8-3cb3-be78-cb954ca44e31
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:16:45,301 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:16:45
+            结束时间：2017/4/27 21:16:45
+            总 时 间：0.2748045秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: f53f6455-be74-2e71-316b-728c8073d268
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:18:48,562 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:18:48
+            结束时间：2017/4/27 21:18:48
+            总 时 间：0.2384058秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: a90ee3ee-fe55-89aa-5301-6acd54213ca6
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:21:34,860 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:21:34
+            结束时间：2017/4/27 21:21:34
+            总 时 间：0.0080004秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 4360d9a7-b84a-e678-2205-f27ff823e241
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:21:35,976 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:21:35
+            结束时间：2017/4/27 21:21:35
+            总 时 间：0.1020058秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: a67db123-10c7-d414-cc2b-bcade3235d24
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:21:36,985 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:21:36
+            结束时间：2017/4/27 21:21:36
+            总 时 间：0.0900051秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 1ea8b2bb-b523-2eb7-ad6b-a5c57ef2aa5a
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:21:37,815 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:21:37
+            结束时间：2017/4/27 21:21:37
+            总 时 间：0.0090005秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 4a2ca06c-6a68-8218-c16d-9aec83847f07
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:21:38,614 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:21:38
+            结束时间：2017/4/27 21:21:38
+            总 时 间：0.0060003秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: e9c24bd1-4a9b-8bd4-e3d5-1fb162fe397b
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:21:40,406 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:21:40
+            结束时间：2017/4/27 21:21:40
+            总 时 间：0.0060004秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 7826a8c1-830b-45fe-aa76-e77a48e598cc
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:21:41,452 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:21:41
+            结束时间：2017/4/27 21:21:41
+            总 时 间：0.1040059秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: fa66a876-5dbf-866a-e339-9ecab4c1dd1e
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:26:26,775 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:26:26
+            结束时间：2017/4/27 21:26:26
+            总 时 间：0.2488073秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 1385977a-ba9e-2968-61e2-7256e9f634ab
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:26:42,809 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:26:42
+            结束时间：2017/4/27 21:26:42
+            总 时 间：0.0080005秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 2bdd6231-abb8-0233-4337-38fd9433253d
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:26:43,929 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:26:43
+            结束时间：2017/4/27 21:26:43
+            总 时 间：0.087005秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: a3c4f319-a8bd-7653-2965-2d9be73d8f60
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:26:44,759 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:26:44
+            结束时间：2017/4/27 21:26:44
+            总 时 间：0.0990057秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: acf0a90d-ee1d-a69f-e078-94cf24d18f8f
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:26:51,622 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:26:51
+            结束时间：2017/4/27 21:26:51
+            总 时 间：0.0050003秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: fbdc0df4-7749-c045-d77f-f76bce661904
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:26:52,351 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:26:52
+            结束时间：2017/4/27 21:26:52
+            总 时 间：0.1100063秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 169fac48-fd06-1f55-900a-165b8de7601d
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:26:52,882 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:26:52
+            结束时间：2017/4/27 21:26:52
+            总 时 间：0.1170067秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: fc567f9e-42b7-84f5-e066-5fad67876d8c
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:26:55,233 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:26:55
+            结束时间：2017/4/27 21:26:55
+            总 时 间：0.0100005秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: b3c4be82-81d7-0c42-0796-7291cebb4d2d
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:26:55,680 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:26:55
+            结束时间：2017/4/27 21:26:55
+            总 时 间：0.1060061秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: b48a8a85-c9bf-c3d8-e8df-8bd6c7c22754
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:26:55,984 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:26:55
+            结束时间：2017/4/27 21:26:55
+            总 时 间：0.105006秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 1cdc8748-4263-59b7-c331-4e6d33d2b03d
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:26:58,408 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:26:58
+            结束时间：2017/4/27 21:26:58
+            总 时 间：0.0060003秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: b6fc12fa-c750-d549-c64f-25ea8e122fd1
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:26:58,706 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:26:58
+            结束时间：2017/4/27 21:26:58
+            总 时 间：0.0090005秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 9023859b-784b-22e2-8561-0e1995e0b002
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:26:59,069 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:26:58
+            结束时间：2017/4/27 21:26:59
+            总 时 间：0.0930053秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: c2199f64-92f4-15ea-2158-349580e67f69
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:27:04,363 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:27:04
+            结束时间：2017/4/27 21:27:04
+            总 时 间：0.1000057秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 8ef73453-03da-39b5-19fa-0b42cbb8c532
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:27:04,750 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:27:04
+            结束时间：2017/4/27 21:27:04
+            总 时 间：0.1320075秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 2ec2d244-ce31-3a17-52f6-9c5700c53198
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:30:19,810 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:30:19
+            结束时间：2017/4/27 21:30:19
+            总 时 间：0.2810075秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 471ecbf3-3d02-c680-bc6c-2d449040af8d
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:33:45,824 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:33:45
+            结束时间：2017/4/27 21:33:45
+            总 时 间：0.0050003秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 4cd3700b-0e2f-9044-1eff-4945a25e6f8f
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:41:50,226 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:41:50
+            结束时间：2017/4/27 21:41:50
+            总 时 间：0.2028004秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 60b4a955-628f-accf-a38b-b99bdae70415
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:47:44,281 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:47:44
+            结束时间：2017/4/27 21:47:44
+            总 时 间：0.2772012秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: fbe2a8b7-b2ef-c13b-22c5-931d190cbf53
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:49:00,266 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:49:00
+            结束时间：2017/4/27 21:49:00
+            总 时 间：0.0070004秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: bc55a33d-6167-a3ca-a3af-57acc1263d3d
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 21:51:31,808 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 21:51:31
+            结束时间：2017/4/27 21:51:31
+            总 时 间：0.0936001秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 6bb3d15a-5a45-76f6-6760-cc44d99802e0
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 22:00:47,890 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 22:00:47
+            结束时间：2017/4/27 22:00:47
+            总 时 间：0.2340004秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: b1f9180a-30cc-15d9-3843-e7c704b08078
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-27 22:01:39,445 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemIsolatorGetIsolatorsInfoByAnyProperty
+            开始时间：2017/4/27 22:01:39
+            结束时间：2017/4/27 22:01:39
+            总 时 间：0.0156秒
+            Action参数：queryIsolatorInfo=SterilityRestful.DataModels.QueryIsolatorInfo&__EntityParamsList__={
+  "IsolatorId": "Iso",
+  "ProductDayS": null,
+  "ProductDayE": null,
+  "EquipPro": null,
+  "InsDescription": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetProductDay": 1,
+  "GetEquipPro": 1,
+  "GetInsDescription": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 6dad3afd-1e91-4c4d-5bd5-3b729ecec0da
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 

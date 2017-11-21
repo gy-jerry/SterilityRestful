@@ -1,0 +1,92 @@
+
+ 
+记录时间：2017-04-25 21:40:46,134 
+线程ID:[7] 
+日志级别：  ERROR 
+错误描述：
+                请求【UserInfoController】的【MstUserLogin】产生异常：
+                Action参数：login=SterilityRestful.DataModels.Login&__EntityParamsList__={
+  "UserId": "sample string 1",
+  "InPassword": "sample string 2",
+  "TerminalIP": "sample string 3",
+  "revUserId": "sample string 4"
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 163ed4bd-4eb5-d12e-7918-ac6ebdd5a4fe
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 System.Net.Dns.InternalGetHostByAddress(IPAddress address, Boolean includeIPv6)
+   在 System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   在 SterilityRestful.CommonLibrary.ExceptionHandler.getTerminalName() 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\CommonLibrary\ExceptionHandler.cs:行号 16
+   在 SterilityRestful.Controllers.UserInfoController.MstUserLogin(Login login) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\UserInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2017-04-25 21:42:28,762 
+线程ID:[8] 
+日志级别：  ERROR 
+错误描述：
+                请求【UserInfoController】的【MstUserLogin】产生异常：
+                Action参数：login=SterilityRestful.DataModels.Login&__EntityParamsList__={
+  "UserId": "sample string 1",
+  "InPassword": "sample string 2",
+  "TerminalIP": "sample string 3",
+  "revUserId": "sample string 4"
+}
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: c83da0f3-720a-922e-c6fd-74d23f0fd7e1
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.Net.Sockets.SocketException (0x80004005): 不知道这样的主机。
+   在 System.Net.Dns.InternalGetHostByAddress(IPAddress address, Boolean includeIPv6)
+   在 System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   在 SterilityRestful.CommonLibrary.ExceptionHandler.getTerminalName() 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\CommonLibrary\ExceptionHandler.cs:行号 16
+   在 SterilityRestful.Controllers.UserInfoController.MstUserLogin(Login login) 位置 e:\Program\task\2016.7重大仪器专项\2016-3-8 重大仪器专项（高性能智能化食品药品无菌检测仪）\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\UserInfoController.cs:行号 41
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()

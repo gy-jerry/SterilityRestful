@@ -1,0 +1,52 @@
+
+ 
+记录时间：2017-05-09 19:22:32,276 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：UserInfoController
+            ActionName:CurrentTime
+            开始时间：2017/5/9 19:22:32
+            结束时间：2017/5/9 19:22:32
+            总 时 间：0.0780001秒
+            Action参数：
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 1d92a2e4-27bd-36be-626a-10bbeeeb577c
+
+            客户端IP：::1,
+            HttpMethod:GET
+                    
+ 
+
+ 
+记录时间：2017-05-09 19:34:02,841 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：UserInfoController
+            ActionName:CurrentTime
+            开始时间：2017/5/9 19:34:02
+            结束时间：2017/5/9 19:34:02
+            总 时 间：0.0210012秒
+            Action参数：
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, sdch, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: ccb84475-47d5-834f-93b2-793967028569
+
+            客户端IP：::1,
+            HttpMethod:GET
+                    
+ 

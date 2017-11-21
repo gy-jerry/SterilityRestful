@@ -1,0 +1,156 @@
+
+ 
+记录时间：2017-05-04 15:21:51,286 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemSampleCreateNewSample
+            开始时间：2017/5/4 15:21:48
+            结束时间：2017/5/4 15:21:51
+            总 时 间：3.2776223秒
+            Action参数：createSampleInfo=SterilityRestful.DataModels.CreateSampleInfo&__EntityParamsList__={
+  "ObjCompany": "sample string 1",
+  "ObjectName": "sample string 2",
+  "ObjectType": "sample string 3",
+  "SamplingPeople": "sample string 4",
+  "SamplingTime": "2017-05-04T15:13:20.8182985+08:00",
+  "Warning": "sample string 6",
+  "SamSave": "sample string 7",
+  "TerminalIP": "sample string 8",
+  "TerminalName": "sample string 9",
+  "revUserId": "sample string 10"
+}
+
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 785f3067-604f-3bb2-2d03-75bfb6eda22b
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-05-04 15:39:38,665 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemSampleCreateNewSample
+            开始时间：2017/5/4 15:39:38
+            结束时间：2017/5/4 15:39:38
+            总 时 间：0.2506005秒
+            Action参数：createSampleInfo=SterilityRestful.DataModels.CreateSampleInfo&__EntityParamsList__={
+  "ObjCompany": "sample string 1",
+  "ObjectName": "sample string 2",
+  "ObjectType": "sample string 3",
+  "SamplingPeople": "sample string 4",
+  "SamplingTime": "2017-05-04T15:13:20.8182985+08:00",
+  "Warning": "sample string 6",
+  "SamSave": "sample string 7",
+  "TerminalIP": "sample string 8",
+  "TerminalName": "sample string 9",
+  "revUserId": "sample string 10"
+}
+
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 8719c0cf-01ea-f466-13d7-d57758dd932d
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-05-04 16:07:03,723 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemSampleUpdateSampleInfo
+            开始时间：2017/5/4 16:07:03
+            结束时间：2017/5/4 16:07:03
+            总 时 间：0.1778032秒
+            Action参数：updateSampleInfo=SterilityRestful.DataModels.UpdateSampleInfo&__EntityParamsList__={
+  "ObjectNo": "sample string 1",
+  "ObjCompany": "sample string 2",
+  "ObjIncuSeq": "sample string 3",
+  "SamplingWay": "sample string 4",
+  "SamplingTool": "sample string 5",
+  "SamAmount": "sample string 6",
+  "DevideWay": "sample string 7",
+  "SamContain": "sample string 8",
+  "TerminalIP": "sample string 9",
+  "TerminalName": "sample string 10",
+  "revUserId": "sample string 11"
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 87fcf2e6-e5d0-3093-93ec-8e61905eaf4d
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-05-04 16:07:16,373 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemSampleUpdateSampleInfo
+            开始时间：2017/5/4 16:07:16
+            结束时间：2017/5/4 16:07:16
+            总 时 间：0.0030001秒
+            Action参数：updateSampleInfo=SterilityRestful.DataModels.UpdateSampleInfo&__EntityParamsList__={
+  "ObjectNo": "sample string 11",
+  "ObjCompany": "sample string 2",
+  "ObjIncuSeq": "sample string 3",
+  "SamplingWay": "sample string 4",
+  "SamplingTool": "sample string 5",
+  "SamAmount": "sample string 6",
+  "DevideWay": "sample string 7",
+  "SamContain": "sample string 8",
+  "TerminalIP": "sample string 9",
+  "TerminalName": "sample string 10",
+  "revUserId": "sample string 11"
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 014e2b3c-cef8-d87f-e858-093018075c5d
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 

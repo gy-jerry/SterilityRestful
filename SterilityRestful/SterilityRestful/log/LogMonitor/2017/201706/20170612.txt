@@ -1,0 +1,33 @@
+
+ 
+记录时间：2017-06-12 13:11:51,412 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：UserInfoController
+            ActionName:MstUserLogin
+            开始时间：2017/6/12 13:11:38
+            结束时间：2017/6/12 13:11:51
+            总 时 间：12.5047152秒
+            Action参数：login=SterilityRestful.DataModels.Login&__EntityParamsList__={
+  "UserId": "UID20170424003",
+  "InPassword": "1234",
+  "TerminalIP": "sample string 3",
+  "TerminalName": "sample string 4",
+  "revUserId": "sample string 5"
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: e99fbe84-093e-7638-1fb4-ff459b8c7646
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 

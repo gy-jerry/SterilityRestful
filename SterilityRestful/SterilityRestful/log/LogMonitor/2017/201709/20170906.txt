@@ -1,0 +1,66 @@
+
+ 
+记录时间：2017-09-06 14:57:31,594 
+线程ID:[20] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：UserInfoController
+            ActionName:MstUserLogin
+            开始时间：2017/9/6 14:39:50
+            结束时间：2017/9/6 14:57:31
+            总 时 间：1061.4199088秒
+            Action参数：login=SterilityRestful.DataModels.Login&__EntityParamsList__={
+  "UserId": "sample string 1",
+  "InPassword": "sample string 2",
+  "TerminalIP": "sample string 3",
+  "TerminalName": "sample string 4",
+  "revUserId": "sample string 5"
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 900ae997-00a0-3350-a656-306454830aa1
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-09-06 14:57:51,859 
+线程ID:[21] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：UserInfoController
+            ActionName:MstUserLogin
+            开始时间：2017/9/6 14:57:33
+            结束时间：2017/9/6 14:57:51
+            总 时 间：17.9447224秒
+            Action参数：login=SterilityRestful.DataModels.Login&__EntityParamsList__={
+  "UserId": "sample string 1",
+  "InPassword": "sample string 2",
+  "TerminalIP": "sample string 3",
+  "TerminalName": "sample string 4",
+  "revUserId": "sample string 5"
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: cdbbc654-c439-1970-2a36-6b469efc8117
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 

@@ -1,0 +1,224 @@
+
+ 
+记录时间：2017-04-25 21:16:17,219 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：UserInfoController
+            ActionName:MstUserLogin
+            开始时间：2017/4/25 21:16:16
+            结束时间：2017/4/25 21:16:17
+            总 时 间：0.229401秒
+            Action参数：login=SterilityRestful.DataModels.Login&__EntityParamsList__={
+  "UserId": "sample string 1",
+  "InPassword": "sample string 2",
+  "TerminalIP": "sample string 3",
+  "revUserId": "sample string 4"
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 14b62594-017a-d913-0d94-748d5ea2ce89
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：ALL_HTTP=HTTP_CACHE_CONTROL%3ano-cache%0d%0aHTTP_CONNECTION%3akeep-alive%0d%0aHTTP_CONTENT_LENGTH%3a142%0d%0aHTTP_CONTENT_TYPE%3aapplication%2fjson%0d%0aHTTP_ACCEPT%3a*%2f*%0d%0aHTTP_ACCEPT_ENCODING%3agzip%2c+deflate%2c+br%0d%0aHTTP_ACCEPT_LANGUAGE%3azh-CN%2czh%3bq%3d0.8%0d%0aHTTP_HOST%3alocalhost%3a57068%0d%0aHTTP_USER_AGENT%3aMozilla%2f5.0+(Windows+NT+6.1%3b+WOW64)+AppleWebKit%2f537.36+(KHTML%2c+like+Gecko)+Chrome%2f57.0.2987.133+Safari%2f537.36%0d%0aHTTP_POSTMAN_TOKEN%3a14b62594-017a-d913-0d94-748d5ea2ce89%0d%0aHTTP_ORIGIN%3achrome-extension%3a%2f%2ffhbjgbiflinjbdggehcddcbncdddomop%0d%0a&ALL_RAW=Cache-Control%3a+no-cache%0d%0aConnection%3a+keep-alive%0d%0aContent-Length%3a+142%0d%0aContent-Type%3a+application%2fjson%0d%0aAccept%3a+*%2f*%0d%0aAccept-Encoding%3a+gzip%2c+deflate%2c+br%0d%0aAccept-Language%3a+zh-CN%2czh%3bq%3d0.8%0d%0aHost%3a+localhost%3a57068%0d%0aUser-Agent%3a+Mozilla%2f5.0+(Windows+NT+6.1%3b+WOW64)+AppleWebKit%2f537.36+(KHTML%2c+like+Gecko)+Chrome%2f57.0.2987.133+Safari%2f537.36%0d%0aPostman-Token%3a+14b62594-017a-d913-0d94-748d5ea2ce89%0d%0aOrigin%3a+chrome-extension%3a%2f%2ffhbjgbiflinjbdggehcddcbncdddomop%0d%0a&APPL_MD_PATH=%2fLM%2fW3SVC%2f11%2fROOT&APPL_PHYSICAL_PATH=E%3a%5cProgram%5ctask%5c2016.7%u91cd%u5927%u4eea%u5668%u4e13%u9879%5c2016-3-8+%u91cd%u5927%u4eea%u5668%u4e13%u9879%uff08%u9ad8%u6027%u80fd%u667a%u80fd%u5316%u98df%u54c1%u836f%u54c1%u65e0%u83cc%u68c0%u6d4b%u4eea%uff09%5cSterilityRestful%5cSterilityRestful%5cSterilityRestful%5c&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=142&CONTENT_TYPE=application%2fjson&GATEWAY_INTERFACE=CGI%2f1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=11&INSTANCE_META_PATH=%2fLM%2fW3SVC%2f11&LOCAL_ADDR=%3a%3a1&PATH_INFO=%2fApi%2fv1%2fUserInfo%2fMstUserLogin&PATH_TRANSLATED=E%3a%5cProgram%5ctask%5c2016.7%u91cd%u5927%u4eea%u5668%u4e13%u9879%5c2016-3-8+%u91cd%u5927%u4eea%u5668%u4e13%u9879%uff08%u9ad8%u6027%u80fd%u667a%u80fd%u5316%u98df%u54c1%u836f%u54c1%u65e0%u83cc%u68c0%u6d4b%u4eea%uff09%5cSterilityRestful%5cSterilityRestful%5cSterilityRestful%5cApi%5cv1%5cUserInfo%5cMstUserLogin&QUERY_STRING=&REMOTE_ADDR=%3a%3a1&REMOTE_HOST=%3a%3a1&REMOTE_PORT=54466&REQUEST_METHOD=POST&SCRIPT_NAME=%2fApi%2fv1%2fUserInfo%2fMstUserLogin&SERVER_NAME=localhost&SERVER_PORT=57068&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP%2f1.1&SERVER_SOFTWARE=Microsoft-IIS%2f10.0&URL=%2fApi%2fv1%2fUserInfo%2fMstUserLogin&HTTP_CACHE_CONTROL=no-cache&HTTP_CONNECTION=keep-alive&HTTP_CONTENT_LENGTH=142&HTTP_CONTENT_TYPE=application%2fjson&HTTP_ACCEPT=*%2f*&HTTP_ACCEPT_ENCODING=gzip%2c+deflate%2c+br&HTTP_ACCEPT_LANGUAGE=zh-CN%2czh%3bq%3d0.8&HTTP_HOST=localhost%3a57068&HTTP_USER_AGENT=Mozilla%2f5.0+(Windows+NT+6.1%3b+WOW64)+AppleWebKit%2f537.36+(KHTML%2c+like+Gecko)+Chrome%2f57.0.2987.133+Safari%2f537.36&HTTP_POSTMAN_TOKEN=14b62594-017a-d913-0d94-748d5ea2ce89&HTTP_ORIGIN=chrome-extension%3a%2f%2ffhbjgbiflinjbdggehcddcbncdddomop,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-25 21:17:03,776 
+线程ID:[12] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：UserInfoController
+            ActionName:MstUserLogin
+            开始时间：2017/4/25 21:16:24
+            结束时间：2017/4/25 21:16:24
+            总 时 间：0.0060003秒
+            Action参数：login=SterilityRestful.DataModels.Login&__EntityParamsList__={
+  "UserId": "sample string 1",
+  "InPassword": "sample string 2",
+  "TerminalIP": "sample string 3",
+  "revUserId": "sample string 4"
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 0cd066a0-dabc-fe79-b93f-f9092a2b4b7d
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：ALL_HTTP=HTTP_CACHE_CONTROL%3ano-cache%0d%0aHTTP_CONNECTION%3akeep-alive%0d%0aHTTP_CONTENT_LENGTH%3a142%0d%0aHTTP_CONTENT_TYPE%3aapplication%2fjson%0d%0aHTTP_ACCEPT%3a*%2f*%0d%0aHTTP_ACCEPT_ENCODING%3agzip%2c+deflate%2c+br%0d%0aHTTP_ACCEPT_LANGUAGE%3azh-CN%2czh%3bq%3d0.8%0d%0aHTTP_HOST%3alocalhost%3a57068%0d%0aHTTP_USER_AGENT%3aMozilla%2f5.0+(Windows+NT+6.1%3b+WOW64)+AppleWebKit%2f537.36+(KHTML%2c+like+Gecko)+Chrome%2f57.0.2987.133+Safari%2f537.36%0d%0aHTTP_POSTMAN_TOKEN%3a0cd066a0-dabc-fe79-b93f-f9092a2b4b7d%0d%0aHTTP_ORIGIN%3achrome-extension%3a%2f%2ffhbjgbiflinjbdggehcddcbncdddomop%0d%0a&ALL_RAW=Cache-Control%3a+no-cache%0d%0aConnection%3a+keep-alive%0d%0aContent-Length%3a+142%0d%0aContent-Type%3a+application%2fjson%0d%0aAccept%3a+*%2f*%0d%0aAccept-Encoding%3a+gzip%2c+deflate%2c+br%0d%0aAccept-Language%3a+zh-CN%2czh%3bq%3d0.8%0d%0aHost%3a+localhost%3a57068%0d%0aUser-Agent%3a+Mozilla%2f5.0+(Windows+NT+6.1%3b+WOW64)+AppleWebKit%2f537.36+(KHTML%2c+like+Gecko)+Chrome%2f57.0.2987.133+Safari%2f537.36%0d%0aPostman-Token%3a+0cd066a0-dabc-fe79-b93f-f9092a2b4b7d%0d%0aOrigin%3a+chrome-extension%3a%2f%2ffhbjgbiflinjbdggehcddcbncdddomop%0d%0a&APPL_MD_PATH=%2fLM%2fW3SVC%2f11%2fROOT&APPL_PHYSICAL_PATH=E%3a%5cProgram%5ctask%5c2016.7%u91cd%u5927%u4eea%u5668%u4e13%u9879%5c2016-3-8+%u91cd%u5927%u4eea%u5668%u4e13%u9879%uff08%u9ad8%u6027%u80fd%u667a%u80fd%u5316%u98df%u54c1%u836f%u54c1%u65e0%u83cc%u68c0%u6d4b%u4eea%uff09%5cSterilityRestful%5cSterilityRestful%5cSterilityRestful%5c&AUTH_TYPE=&AUTH_USER=&AUTH_PASSWORD=&LOGON_USER=&REMOTE_USER=&CERT_COOKIE=&CERT_FLAGS=&CERT_ISSUER=&CERT_KEYSIZE=&CERT_SECRETKEYSIZE=&CERT_SERIALNUMBER=&CERT_SERVER_ISSUER=&CERT_SERVER_SUBJECT=&CERT_SUBJECT=&CONTENT_LENGTH=142&CONTENT_TYPE=application%2fjson&GATEWAY_INTERFACE=CGI%2f1.1&HTTPS=off&HTTPS_KEYSIZE=&HTTPS_SECRETKEYSIZE=&HTTPS_SERVER_ISSUER=&HTTPS_SERVER_SUBJECT=&INSTANCE_ID=11&INSTANCE_META_PATH=%2fLM%2fW3SVC%2f11&LOCAL_ADDR=%3a%3a1&PATH_INFO=%2fApi%2fv1%2fUserInfo%2fMstUserLogin&PATH_TRANSLATED=E%3a%5cProgram%5ctask%5c2016.7%u91cd%u5927%u4eea%u5668%u4e13%u9879%5c2016-3-8+%u91cd%u5927%u4eea%u5668%u4e13%u9879%uff08%u9ad8%u6027%u80fd%u667a%u80fd%u5316%u98df%u54c1%u836f%u54c1%u65e0%u83cc%u68c0%u6d4b%u4eea%uff09%5cSterilityRestful%5cSterilityRestful%5cSterilityRestful%5cApi%5cv1%5cUserInfo%5cMstUserLogin&QUERY_STRING=&REMOTE_ADDR=%3a%3a1&REMOTE_HOST=%3a%3a1&REMOTE_PORT=54466&REQUEST_METHOD=POST&SCRIPT_NAME=%2fApi%2fv1%2fUserInfo%2fMstUserLogin&SERVER_NAME=localhost&SERVER_PORT=57068&SERVER_PORT_SECURE=0&SERVER_PROTOCOL=HTTP%2f1.1&SERVER_SOFTWARE=Microsoft-IIS%2f10.0&URL=%2fApi%2fv1%2fUserInfo%2fMstUserLogin&HTTP_CACHE_CONTROL=no-cache&HTTP_CONNECTION=keep-alive&HTTP_CONTENT_LENGTH=142&HTTP_CONTENT_TYPE=application%2fjson&HTTP_ACCEPT=*%2f*&HTTP_ACCEPT_ENCODING=gzip%2c+deflate%2c+br&HTTP_ACCEPT_LANGUAGE=zh-CN%2czh%3bq%3d0.8&HTTP_HOST=localhost%3a57068&HTTP_USER_AGENT=Mozilla%2f5.0+(Windows+NT+6.1%3b+WOW64)+AppleWebKit%2f537.36+(KHTML%2c+like+Gecko)+Chrome%2f57.0.2987.133+Safari%2f537.36&HTTP_POSTMAN_TOKEN=0cd066a0-dabc-fe79-b93f-f9092a2b4b7d&HTTP_ORIGIN=chrome-extension%3a%2f%2ffhbjgbiflinjbdggehcddcbncdddomop,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-25 21:17:49,515 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：UserInfoController
+            ActionName:MstUserLogin
+            开始时间：2017/4/25 21:17:38
+            结束时间：2017/4/25 21:17:38
+            总 时 间：0.2058005秒
+            Action参数：login=SterilityRestful.DataModels.Login&__EntityParamsList__={
+  "UserId": "sample string 1",
+  "InPassword": "sample string 2",
+  "TerminalIP": "sample string 3",
+  "revUserId": "sample string 4"
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 376f6eba-ab11-8ad8-4ed5-2001adb3b736
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：System.Web.HttpRequest,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-25 21:38:59,335 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：UserInfoController
+            ActionName:MstUserLogin
+            开始时间：2017/4/25 21:37:45
+            结束时间：2017/4/25 21:38:59
+            总 时 间：73.7786817秒
+            Action参数：login=SterilityRestful.DataModels.Login&__EntityParamsList__={
+  "UserId": "sample string 1",
+  "InPassword": "sample string 2",
+  "TerminalIP": "sample string 3",
+  "revUserId": "sample string 4"
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 3df85723-927b-b144-61f2-dc53073f52c7
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-25 21:40:46,113 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：UserInfoController
+            ActionName:MstUserLogin
+            开始时间：2017/4/25 21:40:30
+            结束时间：2017/4/25 21:40:46
+            总 时 间：16.108647秒
+            Action参数：login=SterilityRestful.DataModels.Login&__EntityParamsList__={
+  "UserId": "sample string 1",
+  "InPassword": "sample string 2",
+  "TerminalIP": "sample string 3",
+  "revUserId": "sample string 4"
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 163ed4bd-4eb5-d12e-7918-ac6ebdd5a4fe
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-25 21:42:28,762 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：UserInfoController
+            ActionName:MstUserLogin
+            开始时间：2017/4/25 21:41:11
+            结束时间：2017/4/25 21:42:28
+            总 时 间：77.189785秒
+            Action参数：login=SterilityRestful.DataModels.Login&__EntityParamsList__={
+  "UserId": "sample string 1",
+  "InPassword": "sample string 2",
+  "TerminalIP": "sample string 3",
+  "revUserId": "sample string 4"
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: c83da0f3-720a-922e-c6fd-74d23f0fd7e1
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-04-25 21:47:16,694 
+线程ID:[8] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：UserInfoController
+            ActionName:MstUserLogin
+            开始时间：2017/4/25 21:43:07
+            结束时间：2017/4/25 21:47:16
+            总 时 间：249.1389275秒
+            Action参数：login=SterilityRestful.DataModels.Login&__EntityParamsList__={
+  "UserId": "sample string 1",
+  "InPassword": "sample string 2",
+  "TerminalIP": "sample string 3",
+  "revUserId": "sample string 4"
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: e65a1b73-5e8b-5ec5-c5b7-6b16341b7a33
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 

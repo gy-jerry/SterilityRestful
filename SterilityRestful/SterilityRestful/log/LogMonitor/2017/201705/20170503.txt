@@ -1,0 +1,61 @@
+
+ 
+记录时间：2017-05-03 21:59:50,220 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:ItemSampleGetSamplesInfoByAnyProperty
+            开始时间：2017/5/3 21:59:33
+            结束时间：2017/5/3 21:59:50
+            总 时 间：16.9934049秒
+            Action参数：querySampleInfo=SterilityRestful.DataModels.QuerySampleInfo&__EntityParamsList__={
+  "ObjectNo": null,
+  "ObjCompany": null,
+  "ObjIncuSeq": null,
+  "ObjectName": null,
+  "ObjectType": null,
+  "SamplingPeople": null,
+  "SamplingTimeS": null,
+  "SamplingTimeE": null,
+  "SamplingWay": null,
+  "SamplingTool": null,
+  "SamAmount": null,
+  "DevideWay": null,
+  "SamContain": null,
+  "Warning": null,
+  "SamSave": null,
+  "ReDateTimeS": null,
+  "ReDateTimeE": null,
+  "ReTerminalIP": null,
+  "ReTerminalName": null,
+  "ReUserId": null,
+  "ReIdentify": null,
+  "GetObjectName": 1,
+  "GetObjectType": 1,
+  "GetSamplingPeople": 1,
+  "GetSamplingTime": 1,
+  "GetSamplingWay": 1,
+  "GetSamplingTool": 1,
+  "GetSamAmount": 1,
+  "GetDevideWay": 1,
+  "GetSamContain": 1,
+  "GetWarning": 1,
+  "GetSamSave": 1,
+  "GetRevisionInfo": 1
+}
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36
+Postman-Token: 8b4f1b5d-a0d5-f039-a314-66c007095a77
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
