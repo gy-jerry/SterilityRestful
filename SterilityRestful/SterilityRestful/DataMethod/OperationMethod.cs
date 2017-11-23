@@ -142,5 +142,92 @@ namespace SterilityRestful.DataMethod
                 pclsCache.DisConnect();
             }
         }
+
+        /// <summary>
+        /// 基本操作录入 GY 2017-11-23
+        /// </summary>
+        /// <param name="pclsCache"></param>
+        /// <param name="OperationId"></param>
+        /// <param name="OperationName"></param>
+        /// <param name="OutputCode"></param>
+        /// <returns></returns>
+        public int MstOperationSetData(DataConnection pclsCache, string OperationId, string OperationName, string OutputCode)
+        {
+            int Result = -2;
+            try
+            {
+                if (!pclsCache.Connect())
+                {
+                    return Result;
+                }
+                Result = Convert.ToInt32(Cm.MstOperation.SetData(pclsCache.CacheConnectionObject, OperationId, OperationName, OutputCode));
+                return Result;
+            }
+            catch (Exception ex)
+            {
+                HygeiaComUtility.WriteClientLog(HygeiaEnum.LogType.ErrorLog, "OperationMethod.MstOperationSetData", "数据库操作异常！ error information : " + ex.Message + Environment.NewLine + ex.StackTrace);
+                return Result;
+            }
+            finally
+            {
+                pclsCache.DisConnect();
+            }
+        }
+
+        /// <summary>
+        /// 基本操作条件查询 GY 2017-11-23
+        /// </summary>
+        /// <param name="pclsCache"></param>
+        /// <param name="OperationId"></param>
+        /// <param name="OperationName"></param>
+        /// <param name="OutputCode"></param>
+        /// <param name="GetOperationName"></param>
+        /// <param name="GetOutputCode"></param>
+        /// <returns></returns>
+        public List<MstOperationInfo> GetOperationInfoByAnyProperty(DataConnection pclsCache, string OperationId, string OperationName, string OutputCode, int GetOperationName, int GetOutputCode)
+        {
+            List<MstOperationInfo> list = new List<MstOperationInfo>();
+            try
+            {
+                if (!pclsCache.Connect())
+                {
+                    return list;
+                }
+                InterSystems.Data.CacheTypes.CacheSysList Result = Cm.MstOperation.GetOperationInfoByAnyProperty(pclsCache.CacheConnectionObject, OperationId, OperationName, OutputCode, GetOperationName, GetOutputCode);
+                int count = Result.Count;
+                int i = 1;
+                while (i < count)
+                {
+                    string[] ret = Result[i].Split('|');
+                    MstOperationInfo opInfo = new MstOperationInfo();
+                    if (ret[0] != "")
+                    {
+                        opInfo.OperationId = ret[0];
+                    }
+                    if (ret[1] != "")
+                    {
+                        opInfo.OperationName = ret[1];
+                    }
+                    if (ret[2] != "")
+                    {
+                        opInfo.OutputCode = ret[2];
+                    }
+                    
+                    list.Add(opInfo);
+                    i++;
+                }
+                return list;
+            }
+            catch (Exception ex)
+            {
+                HygeiaComUtility.WriteClientLog(HygeiaEnum.LogType.ErrorLog, "OperationMethod.MstUserGetUsersInfoByAnyProperty", "数据库操作异常！ error information : " + ex.Message + Environment.NewLine + ex.StackTrace);
+                return list;
+            }
+            finally
+            {
+                pclsCache.DisConnect();
+            }
+        }
+
     }
 }
