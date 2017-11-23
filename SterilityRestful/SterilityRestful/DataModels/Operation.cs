@@ -55,4 +55,20 @@ namespace SterilityRestful.DataModels
         public int GetOperationResult { get; set; }
         public int GetRevisionInfo { get; set; }
     }
+
+    public class MstOperationInfo
+    {
+        public string OperationId { get; set; }
+        public string OperationName { get; set; }
+        public string OutputCode { get; set; }
+    }
+
+    public class GetMstOperationInfo
+    {
+        public string OperationId { get; set; }
+        public string OperationName { get; set; }
+        public string OutputCode { get; set; }
+        public int GetOperationName { get; set; }
+        public int GetOutputCode { get; set; }
+    }
 }

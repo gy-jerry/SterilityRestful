@@ -18,5 +18,15 @@ namespace SterilityRestful.Models
         {
             return OperationMethod.OpEquipmentGetEquipmentOpsByAnyProperty(pclsCache, EquipmentId, OperationNo, OperationTimeS, OperationTimeE, OperationCode, OperationValue, OperationResult, ReDateTimeS, ReDateTimeE, ReTerminalIP, ReTerminalName, ReUserId, ReIdentify, GetOperationTime, GetOperationCode, GetOperationValue, GetOperationResult, GetRevisionInfo);
         }
+
+        public int MstOperationSetData(DataConnection pclsCache, string OperationId, string OperationName, string OutputCode)
+        {
+            return OperationMethod.MstOperationSetData(pclsCache, OperationId, OperationName, OutputCode);
+        }
+
+        public List<MstOperationInfo> GetOperationInfoByAnyProperty(DataConnection pclsCache, string OperationId, string OperationName, string OutputCode, int GetOperationName, int GetOutputCode)
+        {
+            return OperationMethod.GetOperationInfoByAnyProperty(pclsCache, OperationId, OperationName, OutputCode, GetOperationName, GetOutputCode);
+        }
     }
 }
