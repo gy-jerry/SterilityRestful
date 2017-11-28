@@ -59,5 +59,16 @@ namespace SterilityRestful.Controllers
         {
             return repository.GetOperationInfoByAnyProperty(pclsCache, GetMstOperationInfo.OperationId, GetMstOperationInfo.OperationName, GetMstOperationInfo.OutputCode, GetMstOperationInfo.GetOperationName, GetMstOperationInfo.GetOutputCode);
         }
+
+        /// <summary>
+        /// 按供试品类型得到无菌检测流程规划 GY 2017-11-28
+        /// </summary>
+        /// <param name="SampleTypeInput"></param>
+        /// <returns></returns>
+        [Route("Api/v1/Operation/MstOperationOrdersBySampleType")]
+        public List<GetOrdersBySampleType> MstOperationOrdersBySampleType(SampleTypeInput SampleTypeInput)
+        {
+            return repository.GetOrdersBySampleType(pclsCache, SampleTypeInput.SampleType);
+        }
     }
 }
