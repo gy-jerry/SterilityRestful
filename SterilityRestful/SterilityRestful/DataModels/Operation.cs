@@ -72,6 +72,17 @@ namespace SterilityRestful.DataModels
         public int GetOutputCode { get; set; }
     }
 
+    public class MstOperationOrder
+    {
+        //OrderId, SampleType, OperationId, OperationValue, OpDescription, PreviousStep, LaterStep
+        public string OrderId { get; set; }
+        public string SampleType { get; set; }
+        public string OperationId { get; set; }
+        public string OperationValue { get; set; }
+        public string OpDescription { get; set; }
+        public string PreviousStep { get; set; }
+        public string LaterStep { get; set; }
+    }
     public class GetOrdersBySampleType
     {
         // OrderId,OperationId,OperationValue,OpDescription

@@ -29,6 +29,11 @@ namespace SterilityRestful.Models
             return OperationMethod.GetOperationInfoByAnyProperty(pclsCache, OperationId, OperationName, OutputCode, GetOperationName, GetOutputCode);
         }
 
+        public int MstOperationOrderSetData(DataConnection pclsCache, string OrderId, string SampleType, string OperationId, string OperationValue, string OpDescription, string PreviousStep, string LaterStep)
+        {
+            return OperationMethod.MstOperationOrderSetData(pclsCache, OrderId, SampleType, OperationId, OperationValue, OpDescription, PreviousStep, LaterStep);
+        }
+
         public List<GetOrdersBySampleType> GetOrdersBySampleType(DataConnection pclsCache, string SampleType)
         {
             return OperationMethod.GetOrdersBySampleType(pclsCache, SampleType);

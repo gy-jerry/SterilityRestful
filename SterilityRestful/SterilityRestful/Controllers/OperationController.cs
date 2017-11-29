@@ -61,6 +61,18 @@ namespace SterilityRestful.Controllers
         }
 
         /// <summary>
+        /// MstOperationOrder数据录入 GY 2017-11-29
+        /// </summary>
+        /// <param name="MstOperationOrder"></param>
+        /// <returns></returns>
+        [Route("Api/v1/Operation/MstOperationOrderSetData")]
+        public HttpResponseMessage MstOperationOrderSetData(MstOperationOrder MstOperationOrder)
+        {
+            int ret = repository.MstOperationOrderSetData(pclsCache, MstOperationOrder.OrderId, MstOperationOrder.SampleType, MstOperationOrder.OperationId, MstOperationOrder.OperationValue, MstOperationOrder.OpDescription, MstOperationOrder.PreviousStep, MstOperationOrder.LaterStep);
+            return new ExceptionHandler().SetData(Request, ret);
+        }
+
+        /// <summary>
         /// 按供试品类型得到无菌检测流程规划 GY 2017-11-28
         /// </summary>
         /// <param name="SampleTypeInput"></param>

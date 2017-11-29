@@ -231,6 +231,41 @@ namespace SterilityRestful.DataMethod
         }
 
         /// <summary>
+        /// MstOperationOrder数据录入 GY 2017-11-29
+        /// </summary>
+        /// <param name="pclsCache"></param>
+        /// <param name="OrderId"></param>
+        /// <param name="SampleType"></param>
+        /// <param name="OperationId"></param>
+        /// <param name="OperationValue"></param>
+        /// <param name="OpDescription"></param>
+        /// <param name="PreviousStep"></param>
+        /// <param name="LaterStep"></param>
+        /// <returns></returns>
+        public int MstOperationOrderSetData(DataConnection pclsCache, string OrderId, string SampleType, string OperationId, string OperationValue, string OpDescription, string PreviousStep, string LaterStep)
+        {
+            int Result = -2;
+            try
+            {
+                if (!pclsCache.Connect())
+                {
+                    return Result;
+                }
+                Result = Convert.ToInt32(Cm.MstOperationOrder.SetData(pclsCache.CacheConnectionObject, OrderId, SampleType, OperationId, OperationValue, OpDescription, PreviousStep, LaterStep));
+                return Result;
+            }
+            catch (Exception ex)
+            {
+                HygeiaComUtility.WriteClientLog(HygeiaEnum.LogType.ErrorLog, "OperationMethod.MstOperationOrderSetData", "数据库操作异常！ error information : " + ex.Message + Environment.NewLine + ex.StackTrace);
+                return Result;
+            }
+            finally
+            {
+                pclsCache.DisConnect();
+            }
+        }
+
+        /// <summary>
         /// 按供试品类型得到无菌检测流程规划 GY 2017-11-28
         /// </summary>
         /// <param name="pclsCache"></param>
