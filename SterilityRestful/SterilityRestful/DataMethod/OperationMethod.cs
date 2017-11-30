@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using SterilityRestful.DataModels;
+using InterSystems.Data.CacheClient;
 
 namespace SterilityRestful.DataMethod
 {
@@ -221,6 +222,88 @@ namespace SterilityRestful.DataMethod
             catch (Exception ex)
             {
                 HygeiaComUtility.WriteClientLog(HygeiaEnum.LogType.ErrorLog, "OperationMethod.MstUserGetUsersInfoByAnyProperty", "数据库操作异常！ error information : " + ex.Message + Environment.NewLine + ex.StackTrace);
+                return list;
+            }
+            finally
+            {
+                pclsCache.DisConnect();
+            }
+        }
+
+        /// <summary>
+        /// MstOperationOrder数据录入 GY 2017-11-29
+        /// </summary>
+        /// <param name="pclsCache"></param>
+        /// <param name="OrderId"></param>
+        /// <param name="SampleType"></param>
+        /// <param name="OperationId"></param>
+        /// <param name="OperationValue"></param>
+        /// <param name="OpDescription"></param>
+        /// <param name="PreviousStep"></param>
+        /// <param name="LaterStep"></param>
+        /// <returns></returns>
+        public int MstOperationOrderSetData(DataConnection pclsCache, string OrderId, string SampleType, string OperationId, string OperationValue, string OpDescription, string PreviousStep, string LaterStep)
+        {
+            int Result = -2;
+            try
+            {
+                if (!pclsCache.Connect())
+                {
+                    return Result;
+                }
+                Result = Convert.ToInt32(Cm.MstOperationOrder.SetData(pclsCache.CacheConnectionObject, OrderId, SampleType, OperationId, OperationValue, OpDescription, PreviousStep, LaterStep));
+                return Result;
+            }
+            catch (Exception ex)
+            {
+                HygeiaComUtility.WriteClientLog(HygeiaEnum.LogType.ErrorLog, "OperationMethod.MstOperationOrderSetData", "数据库操作异常！ error information : " + ex.Message + Environment.NewLine + ex.StackTrace);
+                return Result;
+            }
+            finally
+            {
+                pclsCache.DisConnect();
+            }
+        }
+
+        /// <summary>
+        /// 按供试品类型得到无菌检测流程规划 GY 2017-11-28
+        /// </summary>
+        /// <param name="pclsCache"></param>
+        /// <param name="SampleType"></param>
+        /// <returns></returns>
+        public List<GetOrdersBySampleType> GetOrdersBySampleType(DataConnection pclsCache, string SampleType)
+        {
+            List<GetOrdersBySampleType> list = new List<GetOrdersBySampleType>();
+            CacheCommand cmd = null;
+            CacheDataReader cdr = null;
+
+            try
+            {
+                if (!pclsCache.Connect())
+                {
+                    return list;
+                }
+
+                cmd = Cm.MstOperationOrder.GetOdersBySample(pclsCache.CacheConnectionObject);
+                cmd.Parameters.Add("SampleType", CacheDbType.NVarChar).Value = SampleType;
+
+                cdr = cmd.ExecuteReader();
+
+                while (cdr.Read())
+                {
+                    GetOrdersBySampleType item = new GetOrdersBySampleType();
+                    item.OrderId = cdr["OrderId"].ToString();
+                    item.OperationId = cdr["OperationId"].ToString();
+                    item.OperationValue = cdr["OperationValue"].ToString();
+                    item.OpDescription = cdr["OpDescription"].ToString();
+
+                    list.Add(item);
+                }
+                return list;
+            }
+            catch (Exception ex)
+            {
+                HygeiaComUtility.WriteClientLog(HygeiaEnum.LogType.ErrorLog, "OperationMethod.GetOrdersBySampleType", "数据库操作异常！ error information : " + ex.Message + Environment.NewLine + ex.StackTrace);
                 return list;
             }
             finally

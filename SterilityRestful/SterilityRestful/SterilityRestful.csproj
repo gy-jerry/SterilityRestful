@@ -44,6 +44,10 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Cache.Cm.MstOperation.dll</HintPath>
     </Reference>
+    <Reference Include="Cache.Cm.MstOperationOrder, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Cache.Cm.MstOperationOrder.dll</HintPath>
+    </Reference>
     <Reference Include="Cache.Cm.MstReagentType, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Cache.Cm.MstReagentType.dll</HintPath>
