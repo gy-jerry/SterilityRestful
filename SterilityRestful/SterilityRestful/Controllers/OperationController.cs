@@ -82,5 +82,15 @@ namespace SterilityRestful.Controllers
         {
             return repository.GetOrdersBySampleType(pclsCache, SampleTypeInput.SampleType);
         }
+
+        /// <summary>
+        /// 输出所有供试品类型 GY 2017-12-04
+        /// </summary>
+        /// <returns></returns>
+        [Route("Api/v1/Operation/MstAllOperationSampleTypes")]
+        public List<string> MstAllOperationSampleTypes()
+        {
+            return repository.GetAllSampleTypes(pclsCache);
+        }
     }
 }

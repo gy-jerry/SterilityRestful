@@ -1,0 +1,54 @@
+
+ 
+记录时间：2017-12-04 21:17:36,004 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：OperationController
+            ActionName:MstAllSampleTypes
+            开始时间：2017/12/4 21:17:35
+            结束时间：2017/12/4 21:17:35
+            总 时 间：0.3356428秒
+            Action参数：
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: bf70c66c-800c-6f05-7b7e-8e582c51b2e2
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2017-12-04 21:18:37,609 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：OperationController
+            ActionName:MstAllOperationSampleTypes
+            开始时间：2017/12/4 21:18:37
+            结束时间：2017/12/4 21:18:37
+            总 时 间：0.2315399秒
+            Action参数：
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: 33efe434-7957-9fda-d6d8-ca85c1ff05a0
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 

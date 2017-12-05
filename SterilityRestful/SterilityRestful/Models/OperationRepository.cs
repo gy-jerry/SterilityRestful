@@ -38,5 +38,10 @@ namespace SterilityRestful.Models
         {
             return OperationMethod.GetOrdersBySampleType(pclsCache, SampleType);
         }
+
+        public List<string> GetAllSampleTypes(DataConnection pclsCache)
+        {
+            return OperationMethod.GetAllSampleTypes(pclsCache);
+        }
     }
 }

@@ -312,5 +312,47 @@ namespace SterilityRestful.DataMethod
             }
         }
 
+        /// <summary>
+        /// 输出所有供试品类型 GY 2017-12-04
+        /// </summary>
+        /// <param name="pclsCache"></param>
+        /// <returns></returns>
+        public List<string> GetAllSampleTypes(DataConnection pclsCache)
+        {
+            List<string> sampleTypes = new List<string>();
+            CacheCommand cmd = null;
+            CacheDataReader cdr = null;
+
+            try
+            {
+                if (!pclsCache.Connect())
+                {
+                    return sampleTypes;
+                }
+
+                cmd = Cm.MstOperationOrder.GetAllSampletype(pclsCache.CacheConnectionObject);
+
+                cdr = cmd.ExecuteReader();
+
+                while (cdr.Read())
+                {
+                    string item = string.Empty;
+                    item = cdr["SampleType"].ToString();
+
+                    sampleTypes.Add(item);
+                }
+                return sampleTypes;
+            }
+            catch (Exception ex)
+            {
+                HygeiaComUtility.WriteClientLog(HygeiaEnum.LogType.ErrorLog, "OperationMethod.GetAllSampleTypes", "数据库操作异常！ error information : " + ex.Message + Environment.NewLine + ex.StackTrace);
+                return sampleTypes;
+            }
+            finally
+            {
+                pclsCache.DisConnect();
+            }
+        }
+
     }
 }
