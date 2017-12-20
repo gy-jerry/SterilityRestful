@@ -566,12 +566,14 @@ namespace SterilityRestful.DataMethod
         /// <param name="pclsCache"></param>
         /// <param name="IncubatorId"></param>
         /// <param name="MeaTime"></param>
-        /// <param name="Temperature"></param>
+        /// <param name="Temperature1"></param>
+        /// <param name="Temperature2"></param>
+        /// <param name="Temperature3"></param>
         /// <param name="TerminalIP"></param>
         /// <param name="TerminalName"></param>
         /// <param name="revUserId"></param>
         /// <returns></returns>
-        public int EnvIncubatorSetData(DataConnection pclsCache, string IncubatorId, DateTime MeaTime, int Temperature, string TerminalIP, string TerminalName, string revUserId)
+        public int EnvIncubatorSetData(DataConnection pclsCache, string IncubatorId, DateTime MeaTime, float Temperature1, float Temperature2, float Temperature3, string TerminalIP, string TerminalName, string revUserId)
         {
             int Result = -2;
             try
@@ -580,7 +582,7 @@ namespace SterilityRestful.DataMethod
                 {
                     return Result;
                 }
-                Result = Convert.ToInt32(It.EnvIncubator.SetData(pclsCache.CacheConnectionObject, IncubatorId, MeaTime, Temperature, TerminalIP, TerminalName, revUserId));
+                Result = Convert.ToInt32(It.EnvIncubator.SetData(pclsCache.CacheConnectionObject, IncubatorId, MeaTime, Temperature1, Temperature2, Temperature3, TerminalIP, TerminalName, revUserId));
                 return Result;
             }
             catch (Exception ex)
@@ -601,17 +603,21 @@ namespace SterilityRestful.DataMethod
         /// <param name="IncubatorId"></param>
         /// <param name="MeaTimeS"></param>
         /// <param name="MeaTimeE"></param>
-        /// <param name="Temperature"></param>
+        /// <param name="Temperature1"></param>
+        /// <param name="Temperature2"></param>
+        /// <param name="Temperature3"></param>
         /// <param name="ReDateTimeS"></param>
         /// <param name="ReDateTimeE"></param>
         /// <param name="ReTerminalIP"></param>
         /// <param name="ReTerminalName"></param>
         /// <param name="ReUserId"></param>
         /// <param name="ReIdentify"></param>
-        /// <param name="GetTemperature"></param>
+        /// <param name="GetTemperature1"></param>
+        /// <param name="GetTemperature2"></param>
+        /// <param name="GetTemperature3"></param>
         /// <param name="GetRevisionInfo"></param>
         /// <returns></returns>
-        public List<GetIncubatorEnv> EnvIncubatorGetIncubatorEnvsByAnyProperty(DataConnection pclsCache, string IncubatorId, string MeaTimeS, string MeaTimeE, string Temperature, string ReDateTimeS, string ReDateTimeE, string ReTerminalIP, string ReTerminalName, string ReUserId, string ReIdentify, int GetTemperature, int GetRevisionInfo)
+        public List<GetIncubatorEnv> EnvIncubatorGetIncubatorEnvsByAnyProperty(DataConnection pclsCache, string IncubatorId, string MeaTimeS, string MeaTimeE, string Temperature1, string Temperature2, string Temperature3, string ReDateTimeS, string ReDateTimeE, string ReTerminalIP, string ReTerminalName, string ReUserId, string ReIdentify, int GetTemperature1, int GetTemperature2, int GetTemperature3, int GetRevisionInfo)
         {
             List<GetIncubatorEnv> list = new List<GetIncubatorEnv>();
             try
@@ -620,7 +626,7 @@ namespace SterilityRestful.DataMethod
                 {
                     return list;
                 }
-                InterSystems.Data.CacheTypes.CacheSysList Result = It.EnvIncubator.GetIncubatorEnvsByAnyProperty(pclsCache.CacheConnectionObject, IncubatorId, MeaTimeS, MeaTimeE, Temperature, ReDateTimeS, ReDateTimeE, ReTerminalIP, ReTerminalName, ReUserId, ReIdentify, GetTemperature, GetRevisionInfo);
+                InterSystems.Data.CacheTypes.CacheSysList Result = It.EnvIncubator.GetIncubatorEnvsByAnyProperty(pclsCache.CacheConnectionObject, IncubatorId, MeaTimeS, MeaTimeE, Temperature1, Temperature2, Temperature3, ReDateTimeS, ReDateTimeE, ReTerminalIP, ReTerminalName, ReUserId, ReIdentify, GetTemperature1, GetTemperature2, GetTemperature3, GetRevisionInfo);
                 int count = Result.Count;
                 int i = 1;
                 while (i < count)
@@ -637,27 +643,35 @@ namespace SterilityRestful.DataMethod
                     }
                     if (ret[2] != "")
                     {
-                        incubatorEnv.Temperature = Convert.ToInt32(ret[2]);
+                        incubatorEnv.Temperature1 = Convert.ToSingle(ret[2]);
                     }
                     if (ret[3] != "")
                     {
-                        incubatorEnv.revDateTime = Convert.ToDateTime(ret[3]);
+                        incubatorEnv.Temperature2 = Convert.ToSingle(ret[3]);
                     }
                     if (ret[4] != "")
                     {
-                        incubatorEnv.TerminalIP = ret[4];
+                        incubatorEnv.Temperature3 = Convert.ToSingle(ret[4]);
                     }
                     if (ret[5] != "")
                     {
-                        incubatorEnv.TerminalName = ret[5];
+                        incubatorEnv.revDateTime = Convert.ToDateTime(ret[5]);
                     }
                     if (ret[6] != "")
                     {
-                        incubatorEnv.revUserId = ret[6];
+                        incubatorEnv.TerminalIP = ret[6];
                     }
                     if (ret[7] != "")
                     {
-                        incubatorEnv.revIdentify = ret[7];
+                        incubatorEnv.TerminalName = ret[7];
+                    }
+                    if (ret[8] != "")
+                    {
+                        incubatorEnv.revUserId = ret[8];
+                    }
+                    if (ret[9] != "")
+                    {
+                        incubatorEnv.revIdentify = ret[9];
                     }
                     list.Add(incubatorEnv);
                     i++;
