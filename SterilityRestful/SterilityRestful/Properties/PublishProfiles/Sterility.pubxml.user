@@ -64,7 +64,7 @@
       <publishTime>11/21/2017 21:57:52</publishTime>
     </File>
     <File Include="bin/Cache.It.EnvIncubator.dll">
-      <publishTime>11/21/2017 21:57:52</publishTime>
+      <publishTime>12/20/2017 15:09:09</publishTime>
     </File>
     <File Include="bin/Cache.It.EnvIsolator.dll">
       <publishTime>11/21/2017 21:57:52</publishTime>
@@ -124,7 +124,7 @@
       <publishTime>11/21/2017 21:57:54</publishTime>
     </File>
     <File Include="bin/SterilityRestful.dll">
-      <publishTime>12/04/2017 21:18:16</publishTime>
+      <publishTime>12/20/2017 15:36:51</publishTime>
     </File>
     <File Include="bin/System.Net.Http.Formatting.dll">
       <publishTime>11/21/2017 21:57:53</publishTime>

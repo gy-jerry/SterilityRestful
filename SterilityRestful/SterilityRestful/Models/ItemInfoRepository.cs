@@ -24,9 +24,9 @@ namespace SterilityRestful.Models
             return ItemInfoMethod.ItemReagentSetData(pclsCache, ReagentId, ReagentSource, ReagentName, TerminalIP, TerminalName, revUserId);
         }
 
-        public int EnvIncubatorSetData(DataConnection pclsCache, string IncubatorId, DateTime MeaTime, int Temperature, string TerminalIP, string TerminalName, string revUserId)
+        public int EnvIncubatorSetData(DataConnection pclsCache, string IncubatorId, DateTime MeaTime, float Temperature1, float Temperature2, float Temperature3, string TerminalIP, string TerminalName, string revUserId)
         {
-            return ItemInfoMethod.EnvIncubatorSetData(pclsCache, IncubatorId, MeaTime, Temperature, TerminalIP, TerminalName, revUserId);
+            return ItemInfoMethod.EnvIncubatorSetData(pclsCache, IncubatorId, MeaTime, Temperature1, Temperature2, Temperature3, TerminalIP, TerminalName, revUserId);
         }
 
         public int EnvIsolatorSetData(DataConnection pclsCache, string IsolatorId, string CabinId, DateTime MeaTime, string IsoCode, string IsoValue, string TerminalIP, string TerminalName, string revUserId)
@@ -54,9 +54,9 @@ namespace SterilityRestful.Models
             return ItemInfoMethod.ItemSampleGetSamplesInfoByAnyProperty(pclsCache, ObjectNo, ObjCompany, ObjIncuSeq, ObjectName, ObjectType, SamplingPeople, SamplingTimeS, SamplingTimeE, Warning, ReDateTimeS, ReDateTimeE, ReTerminalIP, ReTerminalName, ReUserId, ReIdentify, GetObjectName, GetObjectType, GetSamplingPeople, GetSamplingTime, GetWarning, GetRevisionInfo);
         }
 
-        public List<GetIncubatorEnv> EnvIncubatorGetIncubatorEnvsByAnyProperty(DataConnection pclsCache, string IncubatorId, string MeaTimeS, string MeaTimeE, string Temperature, string ReDateTimeS, string ReDateTimeE, string ReTerminalIP, string ReTerminalName, string ReUserId, string ReIdentify, int GetTemperature, int GetRevisionInfo)
+        public List<GetIncubatorEnv> EnvIncubatorGetIncubatorEnvsByAnyProperty(DataConnection pclsCache, string IncubatorId, string MeaTimeS, string MeaTimeE, string Temperature1, string Temperature2, string Temperature3, string ReDateTimeS, string ReDateTimeE, string ReTerminalIP, string ReTerminalName, string ReUserId, string ReIdentify, int GetTemperature1, int GetTemperature2, int GetTemperature3, int GetRevisionInfo)
         {
-            return ItemInfoMethod.EnvIncubatorGetIncubatorEnvsByAnyProperty(pclsCache, IncubatorId, MeaTimeS, MeaTimeE, Temperature, ReDateTimeS, ReDateTimeE, ReTerminalIP, ReTerminalName, ReUserId, ReIdentify, GetTemperature, GetRevisionInfo);
+            return ItemInfoMethod.EnvIncubatorGetIncubatorEnvsByAnyProperty(pclsCache, IncubatorId, MeaTimeS, MeaTimeE, Temperature1, Temperature2, Temperature3, ReDateTimeS, ReDateTimeE, ReTerminalIP, ReTerminalName, ReUserId, ReIdentify, GetTemperature1, GetTemperature2, GetTemperature3, GetRevisionInfo);
         }
 
         public List<GetIsolatorEnv> EnvIsolatorGetIsolatorEnvsByAnyProperty(DataConnection pclsCache, string IsolatorId, string CabinId, string MeaTimeS, string MeaTimeE, string IsoCode, string IsoValue, string ReDateTimeS, string ReDateTimeE, string ReTerminalIP, string ReTerminalName, string ReUserId, string ReIdentify, int GetIsoValue, int GetRevisionInfo)

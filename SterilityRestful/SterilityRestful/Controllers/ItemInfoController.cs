@@ -128,7 +128,7 @@ namespace SterilityRestful.Controllers
         [Route("Api/v1/ItemInfo/EnvIncubatorSetData")]
         public HttpResponseMessage EnvIncubatorSetData(IncubatorEnv incubatorEnv)
         {
-            int ret = repository.EnvIncubatorSetData(pclsCache, incubatorEnv.IncubatorId, incubatorEnv.MeaTime, incubatorEnv.Temperature, incubatorEnv.TerminalIP, incubatorEnv.TerminalName, incubatorEnv.revUserId);
+            int ret = repository.EnvIncubatorSetData(pclsCache, incubatorEnv.IncubatorId, incubatorEnv.MeaTime, incubatorEnv.Temperature1, incubatorEnv.Temperature2, incubatorEnv.Temperature3, incubatorEnv.TerminalIP, incubatorEnv.TerminalName, incubatorEnv.revUserId);
             return new ExceptionHandler().SetData(Request, ret);
         }
 
@@ -140,7 +140,7 @@ namespace SterilityRestful.Controllers
         [Route("Api/v1/ItemInfo/EnvIncubatorGetIncubatorEnvsByAnyProperty")]
         public List<GetIncubatorEnv> EnvIncubatorGetIncubatorEnvsByAnyProperty(QueryIncubatorEnv queryIncubatorEnv)
         {
-            return repository.EnvIncubatorGetIncubatorEnvsByAnyProperty(pclsCache, queryIncubatorEnv.IncubatorId, queryIncubatorEnv.MeaTimeS, queryIncubatorEnv.MeaTimeE, queryIncubatorEnv.Temperature, queryIncubatorEnv.ReDateTimeS, queryIncubatorEnv.ReDateTimeE, queryIncubatorEnv.ReTerminalIP, queryIncubatorEnv.ReTerminalName, queryIncubatorEnv.ReUserId, queryIncubatorEnv.ReIdentify, queryIncubatorEnv.GetTemperature, queryIncubatorEnv.GetRevisionInfo);
+            return repository.EnvIncubatorGetIncubatorEnvsByAnyProperty(pclsCache, queryIncubatorEnv.IncubatorId, queryIncubatorEnv.MeaTimeS, queryIncubatorEnv.MeaTimeE, queryIncubatorEnv.Temperature1, queryIncubatorEnv.Temperature2, queryIncubatorEnv.Temperature3, queryIncubatorEnv.ReDateTimeS, queryIncubatorEnv.ReDateTimeE, queryIncubatorEnv.ReTerminalIP, queryIncubatorEnv.ReTerminalName, queryIncubatorEnv.ReUserId, queryIncubatorEnv.ReIdentify, queryIncubatorEnv.GetTemperature1, queryIncubatorEnv.GetTemperature2, queryIncubatorEnv.GetTemperature3, queryIncubatorEnv.GetRevisionInfo);
         }
 
         /// <summary>

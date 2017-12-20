@@ -201,7 +201,9 @@ namespace SterilityRestful.DataModels
     {
         public string IncubatorId { get; set; }
         public DateTime MeaTime { get; set; }
-        public int Temperature { get; set; }
+        public float Temperature1 { get; set; }
+        public float Temperature2{ get; set; }
+        public float Temperature3 { get; set; }
         public string TerminalIP { get; set; }
         public string TerminalName { get; set; }
         public string revUserId { get; set; }
@@ -211,7 +213,9 @@ namespace SterilityRestful.DataModels
     {
         public string IncubatorId { get; set; }
         public DateTime MeaTime { get; set; }
-        public int Temperature { get; set; }
+        public float Temperature1 { get; set; }
+        public float Temperature2 { get; set; }
+        public float Temperature3 { get; set; }
         public DateTime revDateTime { get; set; }
         public string TerminalIP { get; set; }
         public string TerminalName { get; set; }
@@ -224,14 +228,18 @@ namespace SterilityRestful.DataModels
         public string IncubatorId { get; set; }
         public string MeaTimeS { get; set; }
         public string MeaTimeE { get; set; }
-        public string Temperature { get; set; }
+        public string Temperature1 { get; set; }
+        public string Temperature2 { get; set; }
+        public string Temperature3 { get; set; }
         public string ReDateTimeS { get; set; }
         public string ReDateTimeE { get; set; }
         public string ReTerminalIP { get; set; }
         public string ReTerminalName { get; set; }
         public string ReUserId { get; set; }
         public string ReIdentify { get; set; }
-        public int GetTemperature { get; set; }
+        public int GetTemperature1 { get; set; }
+        public int GetTemperature2 { get; set; }
+        public int GetTemperature3 { get; set; }
         public int GetRevisionInfo { get; set; }
     }
 
