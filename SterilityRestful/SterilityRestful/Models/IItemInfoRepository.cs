@@ -34,5 +34,7 @@ namespace SterilityRestful.Models
         int ItemSampleUpdateSampleInfo(DataConnection pclsCache, string ObjectNo, string ObjCompany, string NewObjIncuSeq, string SamplingPeople, DateTime SamplingTime, string TerminalIP, string TerminalName, string revUserId);
 
         List<string> EnvIsolatorGetNewIsolatorEnv(DataConnection pclsCache, string IsolatorId, string CabinId);
+
+        int DeleteMstReagentType(DataConnection pclsCache, string TypeId);
     }
 }

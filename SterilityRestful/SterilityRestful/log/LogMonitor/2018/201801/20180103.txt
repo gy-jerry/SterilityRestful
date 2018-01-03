@@ -1,0 +1,405 @@
+
+ 
+记录时间：2018-01-03 19:00:33,452 
+线程ID:[6] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：OperationController
+            ActionName:MstOperationDeleteByPK
+            开始时间：2018/1/3 19:00:25
+            结束时间：2018/1/3 19:00:33
+            总 时 间：8.3350016秒
+            Action参数：MstOperationDelete=
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: b7ef1205-b789-4a08-a370-5b25245215e7
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2018-01-03 19:01:42,769 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：OperationController
+            ActionName:MstOperationDeleteByPK
+            开始时间：2018/1/3 19:01:02
+            结束时间：2018/1/3 19:01:42
+            总 时 间：40.0927762秒
+            Action参数：MstOperationDelete=
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: d246fa1a-4f54-36c7-5621-4bfe588d28be
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2018-01-03 19:04:48,174 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：OperationController
+            ActionName:MstOperationDeleteByPK
+            开始时间：2018/1/3 19:02:44
+            结束时间：2018/1/3 19:04:48
+            总 时 间：123.3368617秒
+            Action参数：MstOperationDelete=
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: ff89e127-2e6d-5ed2-ddda-3541ae1e02fc
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2018-01-03 19:05:37,607 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：OperationController
+            ActionName:MstOperationDeleteByPK
+            开始时间：2018/1/3 19:05:25
+            结束时间：2018/1/3 19:05:37
+            总 时 间：11.7665513秒
+            Action参数：MstOperationDelete=SterilityRestful.DataModels.MstOperationDelete&__EntityParamsList__=OperationId=IdTest
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: fb07b381-1c21-2860-d92b-8dbe148c06a9
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2018-01-03 19:06:25,055 
+线程ID:[11] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：OperationController
+            ActionName:MstOperationOrderDeleteByPK
+            开始时间：2018/1/3 19:06:25
+            结束时间：2018/1/3 19:06:25
+            总 时 间：0.0050002秒
+            Action参数：MstOperationOrderDelete=SterilityRestful.DataModels.MstOperationOrderDelete&__EntityParamsList__=OrderId=sample+string+9
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: 28551e32-5342-bc75-5056-51c38910705b
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2018-01-03 19:06:29,249 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：OperationController
+            ActionName:MstOperationOrderDeleteByPK
+            开始时间：2018/1/3 19:06:29
+            结束时间：2018/1/3 19:06:29
+            总 时 间：0.0412068秒
+            Action参数：MstOperationOrderDelete=SterilityRestful.DataModels.MstOperationOrderDelete&__EntityParamsList__=OrderId=sample+string+1
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: 915e0a78-2919-0b5e-3715-41d326421872
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2018-01-03 19:06:29,897 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：OperationController
+            ActionName:MstOperationOrderDeleteByPK
+            开始时间：2018/1/3 19:06:29
+            结束时间：2018/1/3 19:06:29
+            总 时 间：0.0450041秒
+            Action参数：MstOperationOrderDelete=SterilityRestful.DataModels.MstOperationOrderDelete&__EntityParamsList__=OrderId=sample+string+1
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: 9758fac0-a27b-a80d-a6a1-6809582259f5
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2018-01-03 19:07:27,873 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:MstReagentTypeDeleteByPK
+            开始时间：2018/1/3 19:07:27
+            结束时间：2018/1/3 19:07:27
+            总 时 间：0.1289994秒
+            Action参数：MstReagentTypeDelete=SterilityRestful.DataModels.MstReagentTypeDelete&__EntityParamsList__=TypeId=sample+string+1
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: f43a56fc-20de-f9ec-1676-34432e453c1e
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2018-01-03 19:07:32,859 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:MstReagentTypeDeleteByPK
+            开始时间：2018/1/3 19:07:32
+            结束时间：2018/1/3 19:07:32
+            总 时 间：0.0742409秒
+            Action参数：MstReagentTypeDelete=SterilityRestful.DataModels.MstReagentTypeDelete&__EntityParamsList__=TypeId=sample+string+1
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: d6249250-6082-c2a3-eeb6-bb4f23a866d1
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2018-01-03 19:07:33,594 
+线程ID:[5] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:MstReagentTypeDeleteByPK
+            开始时间：2018/1/3 19:07:33
+            结束时间：2018/1/3 19:07:33
+            总 时 间：0.0760017秒
+            Action参数：MstReagentTypeDelete=SterilityRestful.DataModels.MstReagentTypeDelete&__EntityParamsList__=TypeId=sample+string+1
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: 0dba02a0-9a3f-fcc4-897c-ae7b907b28b7
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2018-01-03 19:09:13,660 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:MstReagentTypeDeleteByPK
+            开始时间：2018/1/3 19:07:48
+            结束时间：2018/1/3 19:09:13
+            总 时 间：85.0211779秒
+            Action参数：MstReagentTypeDelete=SterilityRestful.DataModels.MstReagentTypeDelete&__EntityParamsList__=TypeId=sample+string+1
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: d1bc93a5-f6a7-3ab2-ce9a-1a1307fd0aa6
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2018-01-03 19:09:50,339 
+线程ID:[19] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:MstReagentTypeDeleteByPK
+            开始时间：2018/1/3 19:09:33
+            结束时间：2018/1/3 19:09:50
+            总 时 间：17.2681497秒
+            Action参数：MstReagentTypeDelete=SterilityRestful.DataModels.MstReagentTypeDelete&__EntityParamsList__=TypeId=sample+string+1
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: bdee8b33-cf4f-24f3-70b7-7a6a63e82a96
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2018-01-03 19:10:03,556 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:MstReagentTypeDeleteByPK
+            开始时间：2018/1/3 19:10:00
+            结束时间：2018/1/3 19:10:03
+            总 时 间：3.1072856秒
+            Action参数：MstReagentTypeDelete=SterilityRestful.DataModels.MstReagentTypeDelete&__EntityParamsList__=TypeId=Bac
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: 7685f13c-9fa9-69e7-0292-8efd2baa5f05
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2018-01-03 19:14:03,471 
+线程ID:[9] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:MstReagentTypeDeleteByPK
+            开始时间：2018/1/3 19:10:21
+            结束时间：2018/1/3 19:14:03
+            总 时 间：222.3328854秒
+            Action参数：MstReagentTypeDelete=SterilityRestful.DataModels.MstReagentTypeDelete&__EntityParamsList__=TypeId=Sample
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: 36c9de77-3a8b-8fac-648c-8422c28abb4a
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 
+
+ 
+记录时间：2018-01-03 19:14:10,242 
+线程ID:[7] 
+日志级别：  INFO  
+跟踪描述：
+            Action执行时间监控：
+            ControllerName：ItemInfoController
+            ActionName:MstReagentTypeDeleteByPK
+            开始时间：2018/1/3 19:14:07
+            结束时间：2018/1/3 19:14:10
+            总 时 间：2.3138151秒
+            Action参数：MstReagentTypeDelete=SterilityRestful.DataModels.MstReagentTypeDelete&__EntityParamsList__=TypeId=Sample
+            Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: 7b7458e6-cb5f-5d90-9e3d-f9da9339627d
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+            客户端IP：::1,
+            HttpMethod:POST
+                    
+ 

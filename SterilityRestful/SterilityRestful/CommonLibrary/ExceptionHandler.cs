@@ -123,6 +123,34 @@ namespace SterilityRestful.CommonLibrary
             return resp;
         }
 
+        public HttpResponseMessage DeleteData(HttpRequestMessage request, int operationResult)
+        {
+            Result res = new Result();
+            res.result = "数据删除失败";
+            //3 数据库连接失败  //0 数据删除失败  
+            var resp = request.CreateResponse(HttpStatusCode.InternalServerError, res);
+            switch (operationResult)
+            {
+                case 1:
+                    //数据删除成功
+                    res.result = "数据删除成功";
+                    resp = request.CreateResponse(HttpStatusCode.OK, res);
+                    break;
+                case 2:
+                    //数据未找到
+                    res.result = "数据未找到";
+                    resp = request.CreateResponse(HttpStatusCode.NotFound, res);
+                    break;
+                case 3:
+                    res.result = "数据库连接失败，无法删除";
+                    resp = request.CreateResponse(HttpStatusCode.NotAcceptable, res);
+                    break;
+                default:
+                    break;
+            }
+            return resp;
+        }
+
         public string UpdateData(HttpRequestMessage request, int operationResult)
         {
             string result = "插入失败";

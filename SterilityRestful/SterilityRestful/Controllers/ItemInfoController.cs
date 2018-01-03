@@ -178,5 +178,17 @@ namespace SterilityRestful.Controllers
         {
             return repository.EnvIsolatorGetNewIsolatorEnv(pclsCache, IsolatorId, CabinId);
         }
+
+        /// <summary>
+        /// 根据主键删除MstReagentType数据 GY 2018-01-03
+        /// </summary>
+        /// <param name="MstReagentTypeDelete"></param>
+        /// <returns></returns>
+        [Route("Api/v1/ItemInfo/MstReagentTypeDeleteByPK")]
+        public HttpResponseMessage MstReagentTypeDeleteByPK(MstReagentTypeDelete MstReagentTypeDelete)
+        {
+            int ret = repository.DeleteMstReagentType(pclsCache, MstReagentTypeDelete.TypeId);
+            return new ExceptionHandler().DeleteData(Request, ret);
+        }
     }
 }

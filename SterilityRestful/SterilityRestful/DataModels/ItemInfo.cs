@@ -286,4 +286,9 @@ namespace SterilityRestful.DataModels
         public int GetIsoValue { get; set; }
         public int GetRevisionInfo { get; set; }
     }
+
+    public class MstReagentTypeDelete
+    {
+        public string TypeId { get; set; }
+    }
 }
