@@ -852,5 +852,35 @@ namespace SterilityRestful.DataMethod
                 pclsCache.DisConnect();
             }
         }
+
+        /// <summary>
+        /// 根据主键删除MstReagentType数据 GY 2018-01-03
+        /// </summary>
+        /// <param name="pclsCache"></param>
+        /// <param name="TypeId"></param>
+        /// <returns></returns>
+        public int DeleteMstReagentType(DataConnection pclsCache, string TypeId)
+        {
+            int ret = 3;
+
+            try
+            {
+                if (!pclsCache.Connect())
+                {
+                    return ret;
+                }
+                ret = (int)Cm.MstReagentType.DeleteByPK(pclsCache.CacheConnectionObject, TypeId);
+                return ret;
+            }
+            catch (Exception ex)
+            {
+                HygeiaComUtility.WriteClientLog(HygeiaEnum.LogType.ErrorLog, "Cm.MstReagentType.DeleteByPK", "数据库操作异常！ error information : " + ex.Message + Environment.NewLine + ex.StackTrace);
+                return ret;
+            }
+            finally
+            {
+                pclsCache.DisConnect();
+            }
+        }
     }
 }

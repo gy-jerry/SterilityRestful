@@ -95,4 +95,14 @@ namespace SterilityRestful.DataModels
     {
         public string SampleType { get; set; }
     }
+
+    public class MstOperationDelete
+    {
+        public string OperationId { get; set; }
+    }
+
+    public class MstOperationOrderDelete
+    {
+        public string OrderId { get; set; }
+    }
 }

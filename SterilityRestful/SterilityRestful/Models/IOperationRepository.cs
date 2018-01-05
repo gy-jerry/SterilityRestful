@@ -20,5 +20,10 @@ namespace SterilityRestful.Models
         List<GetOrdersBySampleType> GetOrdersBySampleType(DataConnection pclsCache, string SampleType);
 
         List<string> GetAllSampleTypes(DataConnection pclsCache);
+
+        int DeleteMstOperation(DataConnection pclsCache, string OperationId);
+
+        int DeleteMstOperationOrder(DataConnection pclsCache, string OrderId);
+
     }
 }

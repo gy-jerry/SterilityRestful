@@ -1,0 +1,108 @@
+
+ 
+记录时间：2018-01-03 19:00:33,468 
+线程ID:[6] 
+日志级别：  ERROR 
+错误描述：
+                请求【OperationController】的【MstOperationDeleteByPK】产生异常：
+                Action参数：MstOperationDelete=
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: b7ef1205-b789-4a08-a370-5b25245215e7
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.OperationController.MstOperationDeleteByPK(MstOperationDelete MstOperationDelete) 位置 C:\Users\bme319\Documents\GitHub\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\OperationController.cs:行号 104
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2018-01-03 19:01:42,779 
+线程ID:[5] 
+日志级别：  ERROR 
+错误描述：
+                请求【OperationController】的【MstOperationDeleteByPK】产生异常：
+                Action参数：MstOperationDelete=
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: d246fa1a-4f54-36c7-5621-4bfe588d28be
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.OperationController.MstOperationDeleteByPK(MstOperationDelete MstOperationDelete) 位置 C:\Users\bme319\Documents\GitHub\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\OperationController.cs:行号 104
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()
+
+ 
+记录时间：2018-01-03 19:04:48,183 
+线程ID:[9] 
+日志级别：  ERROR 
+错误描述：
+                请求【OperationController】的【MstOperationDeleteByPK】产生异常：
+                Action参数：MstOperationDelete=
+               Http请求头:Cache-Control: no-cache
+Connection: keep-alive
+Accept: */*
+Accept-Encoding: gzip, deflate, br
+Accept-Language: zh-CN, zh; q=0.8
+Host: localhost:57068
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36
+Postman-Token: ff89e127-2e6d-5ed2-ddda-3541ae1e02fc
+Origin: chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop
+
+                客户端IP：::1,
+                HttpMethod:POST
+                    
+ 
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 SterilityRestful.Controllers.OperationController.MstOperationDeleteByPK(MstOperationDelete MstOperationDelete) 位置 C:\Users\bme319\Documents\GitHub\SterilityRestful\SterilityRestful\SterilityRestful\Controllers\OperationController.cs:行号 104
+   在 lambda_method(Closure , Object , Object[] )
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass10.<GetExecutor>b__9(Object instance, Object[] methodParameters)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   在 System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeUsingResultConverterAsync>d__8.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__1.MoveNext()

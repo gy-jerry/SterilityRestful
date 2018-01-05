@@ -78,5 +78,10 @@ namespace SterilityRestful.Models
         {
             return ItemInfoMethod.EnvIsolatorGetNewIsolatorEnv(pclsCache, IsolatorId, CabinId);
         }
+
+        public int DeleteMstReagentType(DataConnection pclsCache, string TypeId)
+        {
+            return ItemInfoMethod.DeleteMstReagentType(pclsCache, TypeId);
+        }
     }
 }

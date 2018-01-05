@@ -92,5 +92,29 @@ namespace SterilityRestful.Controllers
         {
             return repository.GetAllSampleTypes(pclsCache);
         }
+
+        /// <summary>
+        /// 根据主键删除MstOperation数据 GY 2018-01-03
+        /// </summary>
+        /// <param name="MstOperationDelete"></param>
+        /// <returns></returns>
+        [Route("Api/v1/Operation/MstOperationDeleteByPK")]
+        public HttpResponseMessage MstOperationDeleteByPK(MstOperationDelete MstOperationDelete)
+        {
+            int ret = repository.DeleteMstOperation(pclsCache, MstOperationDelete.OperationId);
+            return new ExceptionHandler().DeleteData(Request, ret);
+        }
+
+        /// <summary>
+        /// 根据主键删除MstOperationOrder数据 GY 2018-01-03
+        /// </summary>
+        /// <param name="MstOperationOrderDelete"></param>
+        /// <returns></returns>
+        [Route("Api/v1/Operation/MstOperationOrderDeleteByPK")]
+        public HttpResponseMessage MstOperationOrderDeleteByPK(MstOperationOrderDelete MstOperationOrderDelete)
+        {
+            int ret = repository.DeleteMstOperationOrder(pclsCache, MstOperationOrderDelete.OrderId);
+            return new ExceptionHandler().DeleteData(Request, ret);
+        }
     }
 }

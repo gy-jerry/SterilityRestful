@@ -354,5 +354,67 @@ namespace SterilityRestful.DataMethod
             }
         }
 
+        /// <summary>
+        /// 根据主键删除MstOperation数据 GY 2018-01-03
+        /// </summary>
+        /// <param name="pclsCache"></param>
+        /// <param name="OperationId"></param>
+        /// <returns></returns>
+        /// 返回值：0 失败；1 成功；2 数据不存在
+        public int DeleteMstOperation(DataConnection pclsCache, string OperationId)
+        {
+            int ret = 3;
+            
+            try
+            {
+                if (!pclsCache.Connect())
+                {
+                    return ret;
+                }
+                ret = (int)Cm.MstOperation.DeleteByPK(pclsCache.CacheConnectionObject, OperationId);
+                return ret;
+            }
+            catch (Exception ex)
+            {
+                HygeiaComUtility.WriteClientLog(HygeiaEnum.LogType.ErrorLog, "Cm.MstOperation.DeleteByPK", "数据库操作异常！ error information : " + ex.Message + Environment.NewLine + ex.StackTrace);
+                return ret;
+            }
+            finally
+            {
+                pclsCache.DisConnect();
+            }
+        }
+
+        /// <summary>
+        /// 根据主键删除MstOperationOrder数据 GY 2018-01-03
+        /// </summary>
+        /// <param name="pclsCache"></param>
+        /// <param name="OrderId"></param>
+        /// <returns></returns>
+        /// 返回值：0 失败；1 成功；2 数据不存在
+        public int DeleteMstOperationOrder(DataConnection pclsCache, string OrderId)
+        {
+            int ret = 3;
+
+            try
+            {
+                if (!pclsCache.Connect())
+                {
+                    return ret;
+                }
+                ret = (int)Cm.MstOperationOrder.DeleteByPK(pclsCache.CacheConnectionObject, OrderId);
+                return ret;
+            }
+            catch (Exception ex)
+            {
+                HygeiaComUtility.WriteClientLog(HygeiaEnum.LogType.ErrorLog, "Cm.MstOperationOrder.DeleteByPK", "数据库操作异常！ error information : " + ex.Message + Environment.NewLine + ex.StackTrace);
+                return ret;
+            }
+            finally
+            {
+                pclsCache.DisConnect();
+            }
+        }
+
     }
 }

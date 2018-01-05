@@ -43,5 +43,15 @@ namespace SterilityRestful.Models
         {
             return OperationMethod.GetAllSampleTypes(pclsCache);
         }
+
+        public int DeleteMstOperation(DataConnection pclsCache, string OperationId)
+        {
+            return OperationMethod.DeleteMstOperation(pclsCache, OperationId);
+        }
+
+        public int DeleteMstOperationOrder(DataConnection pclsCache, string OrderId)
+        {
+            return OperationMethod.DeleteMstOperationOrder(pclsCache, OrderId);
+        }
     }
 }
