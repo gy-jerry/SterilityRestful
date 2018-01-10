@@ -77,9 +77,9 @@ namespace SterilityRestful.Controllers
         /// <returns></returns>
         [Route("Api/v1/UserInfo/MstUserGetUserInfo")]
         [HttpGet]
-        public GetUserInfo MstUserGetUserInfo(string UserId, int Identify, int PhoneNo, int UserName, int Role, int Password, int LastLoginTime, int RevisionInfo)
+        public GetUserInfo MstUserGetUserInfo(string UserId, int Identify, int PhoneNo, int UserName, int Role, int Password, int LastLoginTime, int Token, int LastLogoutTime, int RevisionInfo)
         {
-            return repository.MstUserGetUserInfo(pclsCache, UserId, Identify, PhoneNo, UserName, Role, Password, LastLoginTime, RevisionInfo);
+            return repository.MstUserGetUserInfo(pclsCache, UserId, Identify, PhoneNo, UserName, Role, Password, LastLoginTime, Token, LastLogoutTime, RevisionInfo);
         }
 
         /// <summary>
@@ -118,7 +118,7 @@ namespace SterilityRestful.Controllers
         [Route("Api/v1/UserInfo/MstUserGetUsersInfoByAnyProperty")]
         public List<GetUserInfo> MstUserGetUsersInfoByAnyProperty(QueryUserInfo queryUserInfo)
         {
-            return repository.MstUserGetUsersInfoByAnyProperty(pclsCache, queryUserInfo.UserId, queryUserInfo.Identify, queryUserInfo.PhoneNo, queryUserInfo.UserName, queryUserInfo.Role, queryUserInfo.Password, queryUserInfo.LastLoginTimeS, queryUserInfo.LastLoginTimeE, queryUserInfo.ReDateTimeS, queryUserInfo.ReDateTimeE, queryUserInfo.ReTerminalIP, queryUserInfo.ReTerminalName, queryUserInfo.ReUserId, queryUserInfo.ReIdentify, queryUserInfo.GetIdentify, queryUserInfo.GetPhoneNo, queryUserInfo.GetUserName, queryUserInfo.GetRole, queryUserInfo.GetPassword, queryUserInfo.GetLastLoginTime, queryUserInfo.GetRevisionInfo);
+            return repository.MstUserGetUsersInfoByAnyProperty(pclsCache, queryUserInfo.UserId, queryUserInfo.Identify, queryUserInfo.PhoneNo, queryUserInfo.UserName, queryUserInfo.Role, queryUserInfo.Password, queryUserInfo.LastLoginTimeS, queryUserInfo.LastLoginTimeE, queryUserInfo.Token, queryUserInfo.LastLogoutTimeS, queryUserInfo.LastLogoutTimeE, queryUserInfo.ReDateTimeS, queryUserInfo.ReDateTimeE, queryUserInfo.ReTerminalIP, queryUserInfo.ReTerminalName, queryUserInfo.ReUserId, queryUserInfo.ReIdentify, queryUserInfo.GetIdentify, queryUserInfo.GetPhoneNo, queryUserInfo.GetUserName, queryUserInfo.GetRole, queryUserInfo.GetPassword, queryUserInfo.GetLastLoginTime, queryUserInfo.GetToken, queryUserInfo.GetLastLogoutTime, queryUserInfo.GetRevisionInfo);
         }
 
         /// <summary>

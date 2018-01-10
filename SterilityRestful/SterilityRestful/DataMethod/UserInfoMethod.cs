@@ -161,7 +161,7 @@ namespace SterilityRestful.DataMethod
         /// <param name="LastLoginTime"></param>
         /// <param name="RevisionInfo"></param>
         /// <returns></returns>
-        public GetUserInfo MstUserGetUserInfo(DataConnection pclsCache, string UserId, int Identify, int PhoneNo, int UserName, int Role, int Password, int LastLoginTime, int RevisionInfo)
+        public GetUserInfo MstUserGetUserInfo(DataConnection pclsCache, string UserId, int Identify, int PhoneNo, int UserName, int Role, int Password, int LastLoginTime, int Token, int LastLogoutTime, int RevisionInfo)
         {
             GetUserInfo Result = new GetUserInfo();
             try
@@ -170,7 +170,7 @@ namespace SterilityRestful.DataMethod
                 {
                     return Result;
                 }
-                string[] ret = Cm.MstUser.GetUserInfo(pclsCache.CacheConnectionObject, UserId, Identify, PhoneNo, UserName, Role, Password, LastLoginTime, RevisionInfo).Split('|');
+                string[] ret = Cm.MstUser.GetUserInfo(pclsCache.CacheConnectionObject, UserId, Identify, PhoneNo, UserName, Role, Password, LastLoginTime, Token, LastLogoutTime, RevisionInfo).Split('|');
                 Result.UserId = UserId;
                 if (ret[0] != "")
                 {
@@ -198,23 +198,31 @@ namespace SterilityRestful.DataMethod
                 }
                 if (ret[6] != "")
                 {
-                    Result.revDateTime = Convert.ToDateTime(ret[6]);
+                    Result.Token = ret[6];
                 }
                 if (ret[7] != "")
                 {
-                    Result.TerminalIP = ret[7];
+                    Result.LastLogoutTime = Convert.ToDateTime(ret[7]);
                 }
                 if (ret[8] != "")
                 {
-                    Result.TerminalName = ret[8];
+                    Result.revDateTime = Convert.ToDateTime(ret[8]);
                 }
                 if (ret[9] != "")
                 {
-                    Result.revUserId = ret[9];
+                    Result.TerminalIP = ret[9];
                 }
                 if (ret[10] != "")
                 {
-                    Result.revIdentify = ret[10];
+                    Result.TerminalName = ret[10];
+                }
+                if (ret[11] != "")
+                {
+                    Result.revUserId = ret[11];
+                }
+                if (ret[12] != "")
+                {
+                    Result.revIdentify = ret[12];
                 }
                 return Result;
             }
@@ -313,7 +321,7 @@ namespace SterilityRestful.DataMethod
         /// <param name="GetLastLoginTime"></param>
         /// <param name="GetRevisionInfo"></param>
         /// <returns></returns>
-        public List<GetUserInfo> MstUserGetUsersInfoByAnyProperty(DataConnection pclsCache, string UserId, string Identify, string PhoneNo, string UserName, string Role, string Password, string LastLoginTimeS, string LastLoginTimeE, string ReDateTimeS, string ReDateTimeE, string ReTerminalIP, string ReTerminalName, string ReUserId, string ReIdentify, int GetIdentify, int GetPhoneNo, int GetUserName, int GetRole, int GetPassword, int GetLastLoginTime, int GetRevisionInfo)
+        public List<GetUserInfo> MstUserGetUsersInfoByAnyProperty(DataConnection pclsCache, string UserId, string Identify, string PhoneNo, string UserName, string Role, string Password, string LastLoginTimeS, string LastLoginTimeE, string Token, string LastLogoutTimeS, string LastLogoutTimeE, string ReDateTimeS, string ReDateTimeE, string ReTerminalIP, string ReTerminalName, string ReUserId, string ReIdentify, int GetIdentify, int GetPhoneNo, int GetUserName, int GetRole, int GetPassword, int GetLastLoginTime, int GetToken, int GetLastLogoutTime, int GetRevisionInfo)
         {
             List<GetUserInfo> list = new List<GetUserInfo>();
             try
@@ -322,7 +330,7 @@ namespace SterilityRestful.DataMethod
                 {
                     return list;
                 }
-                InterSystems.Data.CacheTypes.CacheSysList Result = Cm.MstUser.GetUsersInfoByAnyProperty(pclsCache.CacheConnectionObject, UserId, Identify, PhoneNo, UserName, Role, Password, LastLoginTimeS, LastLoginTimeE, ReDateTimeS, ReDateTimeE, ReTerminalIP, ReTerminalName, ReUserId, ReIdentify, GetIdentify, GetPhoneNo, GetUserName, GetRole, GetPassword, GetLastLoginTime, GetRevisionInfo);
+                InterSystems.Data.CacheTypes.CacheSysList Result = Cm.MstUser.GetUsersInfoByAnyProperty(pclsCache.CacheConnectionObject, UserId, Identify, PhoneNo, UserName, Role, Password, LastLoginTimeS, LastLoginTimeE, Token, LastLogoutTimeS, LastLogoutTimeE, ReDateTimeS, ReDateTimeE, ReTerminalIP, ReTerminalName, ReUserId, ReIdentify, GetIdentify, GetPhoneNo, GetUserName, GetRole, GetPassword, GetLastLoginTime, GetToken, GetLastLogoutTime, GetRevisionInfo);
                 int count = Result.Count;
                 int i = 1;
                 while (i < count)

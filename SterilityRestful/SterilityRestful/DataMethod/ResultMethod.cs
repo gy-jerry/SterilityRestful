@@ -18,20 +18,27 @@ namespace SterilityRestful.DataMethod
         /// <param name="TestType"></param>
         /// <param name="TestStand"></param>
         /// <param name="TestEquip"></param>
+        /// <param name="TestEquip2"></param>
         /// <param name="Description"></param>
+        /// <param name="ProcessStart"></param>
+        /// <param name="ProcessEnd"></param>
         /// <param name="CollectStart"></param>
         /// <param name="CollectEnd"></param>
         /// <param name="TestTime"></param>
         /// <param name="TestResult"></param>
         /// <param name="TestPeople"></param>
+        /// <param name="TestPeople2"></param>
         /// <param name="ReStatus"></param>
         /// <param name="RePeople"></param>
         /// <param name="ReTime"></param>
         /// <param name="TerminalIP"></param>
         /// <param name="TerminalName"></param>
         /// <param name="revUserId"></param>
+        /// <param name="FormerStep"></param>
+        /// <param name="NowStep"></param>
+        /// <param name="LaterStep"></param>
         /// <returns></returns>
-        public int ResTestResultSetData(DataConnection pclsCache, string TestId, string ObjectNo, string ObjCompany, string ObjIncuSeq, string TestType, string TestStand, string TestEquip, string Description, DateTime CollectStart, DateTime CollectEnd, DateTime TestTime, string TestResult, string TestPeople, int ReStatus, string RePeople, string ReTime, string TerminalIP, string TerminalName, string revUserId)
+        public int ResTestResultSetData(DataConnection pclsCache, string TestId, string ObjectNo, string ObjCompany, string ObjIncuSeq, string TestType, string TestStand, string TestEquip, string TestEquip2, string Description, DateTime ProcessStart, DateTime ProcessEnd, DateTime CollectStart, DateTime CollectEnd, DateTime TestTime, string TestResult, string TestPeople, string TestPeople2, int ReStatus, string RePeople, string ReTime, string TerminalIP, string TerminalName, string revUserId, string FormerStep, string NowStep, string LaterStep)
         {
             int Result = -2;
             try
@@ -40,7 +47,7 @@ namespace SterilityRestful.DataMethod
                 {
                     return Result;
                 }
-                Result = Convert.ToInt32(Rs.ResTestResult.SetData(pclsCache.CacheConnectionObject, TestId, ObjectNo, ObjCompany, ObjIncuSeq, TestType, TestStand, TestEquip, Description, CollectStart, CollectEnd, TestTime, TestResult, TestPeople, ReStatus, RePeople, ReTime, TerminalIP, TerminalName, revUserId));
+                Result = Convert.ToInt32(Rs.ResTestResult.SetData(pclsCache.CacheConnectionObject, TestId, ObjectNo, ObjCompany, ObjIncuSeq, TestType, TestStand, TestEquip, TestEquip2, Description, ProcessStart, ProcessEnd, CollectStart, CollectEnd, TestTime, TestResult, TestPeople, TestPeople2, ReStatus, RePeople, ReTime, TerminalIP, TerminalName, revUserId, FormerStep, NowStep, LaterStep));
                 return Result;
             }
             catch (Exception ex)
@@ -65,7 +72,12 @@ namespace SterilityRestful.DataMethod
         /// <param name="TestType"></param>
         /// <param name="TestStand"></param>
         /// <param name="TestEquip"></param>
+        /// <param name="TestEquip2"></param>
         /// <param name="Description"></param>
+        /// <param name="ProcessStartS"></param>
+        /// <param name="ProcessStartE"></param>
+        /// <param name="ProcessEndS"></param>
+        /// <param name="ProcessEndE"></param>
         /// <param name="CollectStartS"></param>
         /// <param name="CollectStartE"></param>
         /// <param name="CollectEndS"></param>
@@ -74,6 +86,7 @@ namespace SterilityRestful.DataMethod
         /// <param name="TestTimeE"></param>
         /// <param name="TestResult"></param>
         /// <param name="TestPeople"></param>
+        /// <param name="TestPeople2"></param>
         /// <param name="ReStatus"></param>
         /// <param name="RePeople"></param>
         /// <param name="ReTimeS"></param>
@@ -84,24 +97,34 @@ namespace SterilityRestful.DataMethod
         /// <param name="ReTerminalName"></param>
         /// <param name="ReUserId"></param>
         /// <param name="ReIdentify"></param>
+        /// <param name="FormerStep"></param>
+        /// <param name="NowStep"></param>
+        /// <param name="LaterStep"></param>
         /// <param name="GetObjectNo"></param>
         /// <param name="GetObjCompany"></param>
         /// <param name="GetObjIncuSeq"></param>
         /// <param name="GetTestType"></param>
         /// <param name="GetTestStand"></param>
         /// <param name="GetTestEquip"></param>
+        /// <param name="GetTestEquip2"></param>
         /// <param name="GetDescription"></param>
+        /// <param name="GetProcessStart"></param>
+        /// <param name="GetProcessEnd"></param>
         /// <param name="GetCollectStart"></param>
         /// <param name="GetCollectEnd"></param>
         /// <param name="GetTestTime"></param>
         /// <param name="GetTestResult"></param>
         /// <param name="GetTestPeople"></param>
+        /// <param name="GetTestPeople2"></param>
         /// <param name="GetReStatus"></param>
         /// <param name="GetRePeople"></param>
         /// <param name="GetReTime"></param>
         /// <param name="GetRevisionInfo"></param>
+        /// <param name="GetFormerStep"></param>
+        /// <param name="GetNowStep"></param>
+        /// <param name="GetLaterStep"></param>
         /// <returns></returns>
-        public List<GetTestResultInfo> ResTestResultGetResultInfosByAnyProperty(DataConnection pclsCache, string TestId, string ObjectNo, string ObjCompany, string ObjIncuSeq, string TestType, string TestStand, string TestEquip, string Description, string CollectStartS, string CollectStartE, string CollectEndS, string CollectEndE, string TestTimeS, string TestTimeE, string TestResult, string TestPeople, string ReStatus, string RePeople, string ReTimeS, string ReTimeE, string ReDateTimeS, string ReDateTimeE, string ReTerminalIP, string ReTerminalName, string ReUserId, string ReIdentify, int GetObjectNo, int GetObjCompany, int GetObjIncuSeq, int GetTestType, int GetTestStand, int GetTestEquip, int GetDescription, int GetCollectStart, int GetCollectEnd, int GetTestTime, int GetTestResult, int GetTestPeople, int GetReStatus, int GetRePeople, int GetReTime, int GetRevisionInfo)
+        public List<GetTestResultInfo> ResTestResultGetResultInfosByAnyProperty(DataConnection pclsCache, string TestId, string ObjectNo, string ObjCompany, string ObjIncuSeq, string TestType, string TestStand, string TestEquip, string TestEquip2, string Description, string ProcessStartS, string ProcessStartE, string ProcessEndS, string ProcessEndE, string CollectStartS, string CollectStartE, string CollectEndS, string CollectEndE, string TestTimeS, string TestTimeE, string TestResult, string TestPeople, string TestPeople2, string ReStatus, string RePeople, string ReTimeS, string ReTimeE, string ReDateTimeS, string ReDateTimeE, string ReTerminalIP, string ReTerminalName, string ReUserId, string ReIdentify, string FormerStep, string NowStep, string LaterStep, int GetObjectNo, int GetObjCompany, int GetObjIncuSeq, int GetTestType, int GetTestStand, int GetTestEquip, int GetTestEquip2, int GetDescription, int GetProcessStart, int GetProcessEnd, int GetCollectStart, int GetCollectEnd, int GetTestTime, int GetTestResult, int GetTestPeople, int GetTestPeople2, int GetReStatus, int GetRePeople, int GetReTime, int GetRevisionInfo, int GetFormerStep, int GetNowStep, int GetLaterStep)
         {
             List<GetTestResultInfo> list = new List<GetTestResultInfo>();
             try
@@ -110,7 +133,7 @@ namespace SterilityRestful.DataMethod
                 {
                     return list;
                 }
-                InterSystems.Data.CacheTypes.CacheSysList Result = Rs.ResTestResult.GetResultInfosByAnyProperty(pclsCache.CacheConnectionObject, TestId, ObjectNo, ObjCompany, ObjIncuSeq, TestType, TestStand, TestEquip, Description, CollectStartS, CollectStartE, CollectEndS, CollectEndE, TestTimeS, TestTimeE, TestResult, TestPeople, ReStatus, RePeople, ReTimeS, ReTimeE, ReDateTimeS, ReDateTimeE, ReTerminalIP, ReTerminalName, ReUserId, ReIdentify, GetObjectNo, GetObjCompany, GetObjIncuSeq, GetTestType, GetTestStand, GetTestEquip, GetDescription, GetCollectStart, GetCollectEnd, GetTestTime, GetTestResult, GetTestPeople, GetReStatus, GetRePeople, GetReTime, GetRevisionInfo);
+                InterSystems.Data.CacheTypes.CacheSysList Result = Rs.ResTestResult.GetResultInfosByAnyProperty(pclsCache.CacheConnectionObject, TestId, ObjectNo, ObjCompany, ObjIncuSeq, TestType, TestStand, TestEquip, TestEquip2, Description, ProcessStartS, ProcessStartE, ProcessEndS, ProcessEndE, CollectStartS, CollectStartE, CollectEndS, CollectEndE, TestTimeS, TestTimeE, TestResult, TestPeople, TestPeople2, ReStatus, RePeople, ReTimeS, ReTimeE, ReDateTimeS, ReDateTimeE, ReTerminalIP, ReTerminalName, ReUserId, ReIdentify, FormerStep, NowStep, LaterStep, GetObjectNo, GetObjCompany, GetObjIncuSeq, GetTestType, GetTestStand, GetTestEquip, GetTestEquip2, GetDescription, GetProcessStart, GetProcessEnd, GetCollectStart, GetCollectEnd, GetTestTime, GetTestResult, GetTestPeople, GetTestPeople2, GetReStatus, GetRePeople, GetReTime, GetRevisionInfo, GetFormerStep, GetNowStep, GetLaterStep);
                 int count = Result.Count;
                 int i = 1;
                 while (i < count)
@@ -147,59 +170,87 @@ namespace SterilityRestful.DataMethod
                     }
                     if (ret[7] != "")
                     {
-                        testResultInfo.Description = ret[7];
+                        testResultInfo.TestEquip2 = ret[7];
                     }
                     if (ret[8] != "")
                     {
-                        testResultInfo.CollectStart = Convert.ToDateTime(ret[8]);
+                        testResultInfo.Description = ret[8];
                     }
                     if (ret[9] != "")
                     {
-                        testResultInfo.CollectEnd = Convert.ToDateTime(ret[9]);
+                        testResultInfo.ProcessStart = Convert.ToDateTime(ret[9]);
                     }
                     if (ret[10] != "")
                     {
-                        testResultInfo.TestTime = Convert.ToDateTime(ret[10]);
+                        testResultInfo.ProcessEnd = Convert.ToDateTime(ret[10]);
                     }
                     if (ret[11] != "")
                     {
-                        testResultInfo.TestResult = ret[11];
+                        testResultInfo.CollectStart = Convert.ToDateTime(ret[11]);
                     }
                     if (ret[12] != "")
                     {
-                        testResultInfo.TestPeople = ret[12];
+                        testResultInfo.CollectEnd = Convert.ToDateTime(ret[12]);
                     }
                     if (ret[13] != "")
                     {
-                        testResultInfo.ReStatus = Convert.ToInt32(ret[13]);
+                        testResultInfo.TestTime = Convert.ToDateTime(ret[13]);
                     }
                     if (ret[14] != "")
                     {
-                        testResultInfo.RePeople = ret[14];
+                        testResultInfo.TestResult = ret[14];
                     }
                     if (ret[15] != "")
                     {
-                        testResultInfo.ReTime = ret[15];
+                        testResultInfo.TestPeople = ret[15];
                     }
                     if (ret[16] != "")
                     {
-                        testResultInfo.revDateTime = Convert.ToDateTime(ret[16]);
+                        testResultInfo.TestPeople2 = ret[16];
                     }
                     if (ret[17] != "")
                     {
-                        testResultInfo.TerminalIP = ret[17];
+                        testResultInfo.ReStatus = Convert.ToInt32(ret[17]);
                     }
                     if (ret[18] != "")
                     {
-                        testResultInfo.TerminalName = ret[18];
+                        testResultInfo.RePeople = ret[18];
                     }
                     if (ret[19] != "")
                     {
-                        testResultInfo.revUserId = ret[19];
+                        testResultInfo.ReTime = ret[19];
                     }
                     if (ret[20] != "")
                     {
-                        testResultInfo.revIdentify = ret[20];
+                        testResultInfo.revDateTime = Convert.ToDateTime(ret[20]);
+                    }
+                    if (ret[21] != "")
+                    {
+                        testResultInfo.TerminalIP = ret[21];
+                    }
+                    if (ret[22] != "")
+                    {
+                        testResultInfo.TerminalName = ret[22];
+                    }
+                    if (ret[23] != "")
+                    {
+                        testResultInfo.revUserId = ret[23];
+                    }
+                    if (ret[24] != "")
+                    {
+                        testResultInfo.revIdentify = ret[24];
+                    }
+                    if (ret[25] != "")
+                    {
+                        testResultInfo.FormerStep = ret[25];
+                    }
+                    if (ret[26] != "")
+                    {
+                        testResultInfo.NowStep = ret[26];
+                    }
+                    if (ret[27] != "")
+                    {
+                        testResultInfo.LaterStep = ret[27];
                     }
                     list.Add(testResultInfo);
                     i++;
@@ -227,11 +278,12 @@ namespace SterilityRestful.DataMethod
         /// <param name="BacterId"></param>
         /// <param name="OtherRea"></param>
         /// <param name="IncubatorId"></param>
+        /// <param name="Place"></param>
         /// <param name="StartTime"></param>
         /// <param name="EndTime"></param>
         /// <param name="AnalResult"></param>
         /// <returns></returns>
-        public int ResIncubatorSetData(DataConnection pclsCache, string TestId, string TubeNo, string CultureId, string BacterId, string OtherRea, string IncubatorId, string StartTime, string EndTime, string AnalResult)
+        public int ResIncubatorSetData(DataConnection pclsCache, string TestId, string TubeNo, string CultureId, string BacterId, string OtherRea, string IncubatorId, string Place, string StartTime, string EndTime, string AnalResult)
         {
             int Result = -2;
             try
@@ -240,7 +292,7 @@ namespace SterilityRestful.DataMethod
                 {
                     return Result;
                 }
-                Result = Convert.ToInt32(Rs.ResIncubator.SetData(pclsCache.CacheConnectionObject, TestId, TubeNo, CultureId, BacterId, OtherRea, IncubatorId, StartTime, EndTime, AnalResult));
+                Result = Convert.ToInt32(Rs.ResIncubator.SetData(pclsCache.CacheConnectionObject, TestId, TubeNo, CultureId, BacterId, OtherRea, IncubatorId, Place, StartTime, EndTime, AnalResult));
                 return Result;
             }
             catch (Exception ex)
@@ -264,6 +316,7 @@ namespace SterilityRestful.DataMethod
         /// <param name="BacterId"></param>
         /// <param name="OtherRea"></param>
         /// <param name="IncubatorId"></param>
+        /// <param name="Place"></param>
         /// <param name="StartTimeS"></param>
         /// <param name="StartTimeE"></param>
         /// <param name="EndTimeS"></param>
@@ -273,11 +326,12 @@ namespace SterilityRestful.DataMethod
         /// <param name="GetBacterId"></param>
         /// <param name="GetOtherRea"></param>
         /// <param name="GetIncubatorId"></param>
+        /// <param name="GetPlace"></param>
         /// <param name="GetStartTime"></param>
         /// <param name="GetEndTime"></param>
         /// <param name="GetAnalResult"></param>
         /// <returns></returns>
-        public List<ResIncubator> ResIncubatorGetResultTubesByAnyProperty(DataConnection pclsCache, string TestId, string TubeNo, string CultureId, string BacterId, string OtherRea, string IncubatorId, string StartTimeS, string StartTimeE, string EndTimeS, string EndTimeE, string AnalResult, int GetCultureId, int GetBacterId, int GetOtherRea, int GetIncubatorId, int GetStartTime, int GetEndTime, int GetAnalResult)
+        public List<ResIncubator> ResIncubatorGetResultTubesByAnyProperty(DataConnection pclsCache, string TestId, string TubeNo, string CultureId, string BacterId, string OtherRea, string IncubatorId, string Place, string StartTimeS, string StartTimeE, string EndTimeS, string EndTimeE, string AnalResult, int GetCultureId, int GetBacterId, int GetOtherRea, int GetIncubatorId, int GetPlace, int GetStartTime, int GetEndTime, int GetAnalResult)
         {
             List<ResIncubator> list = new List<ResIncubator>();
             try
@@ -286,7 +340,7 @@ namespace SterilityRestful.DataMethod
                 {
                     return list;
                 }
-                InterSystems.Data.CacheTypes.CacheSysList Result = Rs.ResIncubator.GetResultTubesByAnyProperty(pclsCache.CacheConnectionObject, TestId, TubeNo, CultureId, BacterId, OtherRea, IncubatorId, StartTimeS, StartTimeE, EndTimeS, EndTimeE, AnalResult, GetCultureId, GetBacterId, GetOtherRea, GetIncubatorId, GetStartTime, GetEndTime, GetAnalResult);
+                InterSystems.Data.CacheTypes.CacheSysList Result = Rs.ResIncubator.GetResultTubesByAnyProperty(pclsCache.CacheConnectionObject, TestId, TubeNo, CultureId, BacterId, OtherRea, IncubatorId, Place, StartTimeS, StartTimeE, EndTimeS, EndTimeE, AnalResult, GetCultureId, GetBacterId, GetOtherRea, GetIncubatorId, GetPlace, GetStartTime, GetEndTime, GetAnalResult);
                 int count = Result.Count;
                 int i = 1;
                 while (i < count)
@@ -317,17 +371,21 @@ namespace SterilityRestful.DataMethod
                     {
                         resIncubator.IncubatorId = ret[5];
                     }
+                    if (ret[5] != "")
+                    {
+                        resIncubator.Place = ret[6];
+                    }
                     if (ret[6] != "")
                     {
-                        resIncubator.StartTime = ret[6];
+                        resIncubator.StartTime = ret[7];
                     }
                     if (ret[7] != "")
                     {
-                        resIncubator.EndTime = ret[7];
+                        resIncubator.EndTime = ret[8];
                     }
                     if (ret[8] != "")
                     {
-                        resIncubator.AnalResult = ret[8];
+                        resIncubator.AnalResult = ret[9];
                     }
                     list.Add(resIncubator);
                     i++;

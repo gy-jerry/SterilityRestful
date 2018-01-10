@@ -60,6 +60,8 @@ namespace SterilityRestful.DataModels
         public string Role { get; set; }
         public string Password { get; set; }
         public DateTime LastLoginTime { get; set; }
+        public string Token { get; set; }
+        public DateTime LastLogoutTime { get; set; }
         public DateTime revDateTime { get; set; }
         public string TerminalIP { get; set; }
         public string TerminalName { get; set; }
@@ -77,6 +79,9 @@ namespace SterilityRestful.DataModels
         public string Password { get; set; }
         public string LastLoginTimeS { get; set; }
         public string LastLoginTimeE { get; set; }
+        public string Token { get; set; }
+        public string LastLogoutTimeS { get; set; }
+        public string LastLogoutTimeE { get; set; }
         public string ReDateTimeS { get; set; }
         public string ReDateTimeE { get; set; }
         public string ReTerminalIP { get; set; }
@@ -89,6 +94,8 @@ namespace SterilityRestful.DataModels
         public int GetRole { get; set; }
         public int GetPassword { get; set; }
         public int GetLastLoginTime { get; set; }
+        public int GetToken { get; set; }
+        public int GetLastLogoutTime { get; set; }
         public int GetRevisionInfo { get; set; }
     }
 }

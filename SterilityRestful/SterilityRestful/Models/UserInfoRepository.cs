@@ -28,9 +28,9 @@ namespace SterilityRestful.Models
             return UserInfoMethod.MstUserUpdateUserInfo(pclsCache, UserId, Identify, PhoneNo, UserName, Role, TerminalIP, TerminalName, revUserId);
         }
 
-        public GetUserInfo MstUserGetUserInfo(DataConnection pclsCache, string UserId, int Identify, int PhoneNo, int UserName, int Role, int Password, int LastLoginTime, int RevisionInfo)
+        public GetUserInfo MstUserGetUserInfo(DataConnection pclsCache, string UserId, int Identify, int PhoneNo, int UserName, int Role, int Password, int LastLoginTime, int Token, int LastLogoutTime, int RevisionInfo)
         {
-            return UserInfoMethod.MstUserGetUserInfo(pclsCache, UserId, Identify, PhoneNo, UserName, Role, Password, LastLoginTime, RevisionInfo);
+            return UserInfoMethod.MstUserGetUserInfo(pclsCache, UserId, Identify, PhoneNo, UserName, Role, Password, LastLoginTime, Token, LastLogoutTime, RevisionInfo);
         }
 
         public string MstUserGetUserByPhoneNo(DataConnection pclsCache, long PhoneNo)
@@ -43,9 +43,9 @@ namespace SterilityRestful.Models
             return UserInfoMethod.MstUserCreateNewUserId(pclsCache, PhoneNo);
         }
 
-        public List<GetUserInfo> MstUserGetUsersInfoByAnyProperty(DataConnection pclsCache, string UserId, string Identify, string PhoneNo, string UserName, string Role, string Password, string LastLoginTimeS, string LastLoginTimeE, string ReDateTimeS, string ReDateTimeE, string ReTerminalIP, string ReTerminalName, string ReUserId, string ReIdentify, int GetIdentify, int GetPhoneNo, int GetUserName, int GetRole, int GetPassword, int GetLastLoginTime, int GetRevisionInfo)
+        public List<GetUserInfo> MstUserGetUsersInfoByAnyProperty(DataConnection pclsCache, string UserId, string Identify, string PhoneNo, string UserName, string Role, string Password, string LastLoginTimeS, string LastLoginTimeE, string Token, string LastLogoutTimeS, string LastLogoutTimeE, string ReDateTimeS, string ReDateTimeE, string ReTerminalIP, string ReTerminalName, string ReUserId, string ReIdentify, int GetIdentify, int GetPhoneNo, int GetUserName, int GetRole, int GetPassword, int GetLastLoginTime, int GetToken, int GetLastLogoutTime, int GetRevisionInfo)
         {
-            return UserInfoMethod.MstUserGetUsersInfoByAnyProperty(pclsCache, UserId, Identify, PhoneNo, UserName, Role, Password, LastLoginTimeS, LastLoginTimeE, ReDateTimeS, ReDateTimeE, ReTerminalIP, ReTerminalName, ReUserId, ReIdentify, GetIdentify, GetPhoneNo, GetUserName, GetRole, GetPassword, GetLastLoginTime, GetRevisionInfo);
+            return UserInfoMethod.MstUserGetUsersInfoByAnyProperty(pclsCache, UserId, Identify, PhoneNo, UserName, Role, Password, LastLoginTimeS, LastLoginTimeE, Token, LastLogoutTimeS, LastLogoutTimeE, ReDateTimeS, ReDateTimeE, ReTerminalIP, ReTerminalName, ReUserId, ReIdentify, GetIdentify, GetPhoneNo, GetUserName, GetRole, GetPassword, GetLastLoginTime, GetToken, GetLastLogoutTime, GetRevisionInfo);
         }
 
         public List<TypeAndName> MstReagentTypeGetAll(DataConnection pclsCache)

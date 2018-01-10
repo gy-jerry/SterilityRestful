@@ -15,18 +15,25 @@ namespace SterilityRestful.DataModels
         public string TestType { get; set; }
         public string TestStand { get; set; }
         public string TestEquip { get; set; }
+        public string TestEquip2 { get; set; }
         public string Description { get; set; }
+        public DateTime ProcessStart { get; set; }
+        public DateTime ProcessEnd { get; set; }
         public DateTime CollectStart { get; set; }
         public DateTime CollectEnd { get; set; }
         public DateTime TestTime { get; set; }
         public string TestResult { get; set; }
         public string TestPeople { get; set; }
+        public string TestPeople2 { get; set; }
         public int ReStatus { get; set; }
         public string RePeople { get; set; }
         public string ReTime { get; set; }
         public string TerminalIP { get; set; }
         public string TerminalName { get; set; }
         public string revUserId { get; set; }
+        public string FormerStep { get; set; }
+        public string NowStep { get; set; }
+        public string LaterStep { get; set; }
     }
 
     public class GetTestResultInfo
@@ -38,12 +45,16 @@ namespace SterilityRestful.DataModels
         public string TestType { get; set; }
         public string TestStand { get; set; }
         public string TestEquip { get; set; }
+        public string TestEquip2 { get; set; }
         public string Description { get; set; }
+        public DateTime ProcessStart { get; set; }
+        public DateTime ProcessEnd { get; set; }
         public DateTime CollectStart { get; set; }
         public DateTime CollectEnd { get; set; }
         public DateTime TestTime { get; set; }
         public string TestResult { get; set; }
         public string TestPeople { get; set; }
+        public string TestPeople2 { get; set; }
         public int ReStatus { get; set; }
         public string RePeople { get; set; }
         public string ReTime { get; set; }
@@ -52,6 +63,9 @@ namespace SterilityRestful.DataModels
         public string TerminalName { get; set; }
         public string revUserId { get; set; }
         public string revIdentify { get; set; }
+        public string FormerStep { get; set; }
+        public string NowStep { get; set; }
+        public string LaterStep { get; set; }
     }
 
     public class QueryTestResultInfo
@@ -63,7 +77,12 @@ namespace SterilityRestful.DataModels
         public string TestType { get; set; }
         public string TestStand { get; set; }
         public string TestEquip { get; set; }
+        public string TestEquip2 { get; set; }
         public string Description { get; set; }
+        public string ProcessStartS { get; set; }
+        public string ProcessStartE { get; set; }
+        public string ProcessEndS { get; set; }
+        public string ProcessEndE { get; set; }
         public string CollectStartS { get; set; }
         public string CollectStartE { get; set; }
         public string CollectEndS { get; set; }
@@ -72,6 +91,7 @@ namespace SterilityRestful.DataModels
         public string TestTimeE { get; set; }
         public string TestResult { get; set; }
         public string TestPeople { get; set; }
+        public string TestPeople2 { get; set; }
         public string ReStatus { get; set; }
         public string RePeople { get; set; }
         public string ReTimeS { get; set; }
@@ -82,22 +102,32 @@ namespace SterilityRestful.DataModels
         public string ReTerminalName { get; set; }
         public string ReUserId { get; set; }
         public string ReIdentify { get; set; }
+        public string FormerStep { get; set; }
+        public string NowStep { get; set; }
+        public string LaterStep { get; set; }
         public int GetObjectNo { get; set; }
         public int GetObjCompany { get; set; }
         public int GetObjIncuSeq { get; set; }
         public int GetTestType { get; set; }
         public int GetTestStand { get; set; }
         public int GetTestEquip { get; set; }
+        public int GetTestEquip2 { get; set; }
         public int GetDescription { get; set; }
+        public int GetProcessStart { get; set; }
+        public int GetProcessEnd { get; set; }
         public int GetCollectStart { get; set; }
         public int GetCollectEnd { get; set; }
         public int GetTestTime { get; set; }
         public int GetTestResult { get; set; }
         public int GetTestPeople { get; set; }
+        public int GetTestPeople2 { get; set; }
         public int GetReStatus { get; set; }
         public int GetRePeople { get; set; }
         public int GetReTime { get; set; }
         public int GetRevisionInfo { get; set; }
+        public int GetFormerStep { get; set; }
+        public int GetNowStep { get; set; }
+        public int GetLaterStep { get; set; }
     }
 
     public class ResIncubator
@@ -108,6 +138,7 @@ namespace SterilityRestful.DataModels
         public string BacterId { get; set; }
         public string OtherRea { get; set; }
         public string IncubatorId { get; set; }
+        public string Place { get; set; }
         public string StartTime { get; set; }
         public string EndTime { get; set; }
         public string AnalResult { get; set; }
@@ -121,6 +152,7 @@ namespace SterilityRestful.DataModels
         public string BacterId { get; set; }
         public string OtherRea { get; set; }
         public string IncubatorId { get; set; }
+        public string Place { get; set; }
         public string StartTimeS { get; set; }
         public string StartTimeE { get; set; }
         public string EndTimeS { get; set; }
@@ -130,6 +162,7 @@ namespace SterilityRestful.DataModels
         public int GetBacterId { get; set; }
         public int GetOtherRea { get; set; }
         public int GetIncubatorId { get; set; }
+        public int GetPlace { get; set; }
         public int GetStartTime { get; set; }
         public int GetEndTime { get; set; }
         public int GetAnalResult { get; set; }
